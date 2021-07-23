@@ -49,15 +49,16 @@ ex ()
   fi
 }
 
-# Aliases
-alias refresh="sudo dnf update --refresh && flatpak update -y"
+### Aliases
+alias refresh="sudo apt update && sudo apt upgrade && flatpak update"
 alias lock='xdg-screensaver lock'
-alias bconf='nvim /home/tomoghno/.bashrc'
+alias bconf='nvim $HOME/.bashrc'
 alias edit='nvim'
 alias vim='nvim'
 alias vi='nvim'
+alias pak='flatpak --user'
 
-# youtube-dl alias
+### youtube-dl alias
 alias yt='youtube-dl'
 alias yta-aac='youtube-dl --extract-audio --audio-format aac '
 alias yta-best='youtube-dl --extract-audio --audio-format best '
@@ -69,19 +70,18 @@ alias yta-vorbis='youtube-dl --extract-audio --audio-format vorbis '
 alias yta-wav='youtube-dl --extract-audio --audio-format wav '
 alias ytv-best='youtube-dl -f bestvideo+bestaudio '
 
-# Changing "ls" to "exa"
+### Changing "ls" to "exa"
 alias ls='exa --icons --color=always --group-directories-first'
 alias ll='exa -alF --icons --color=always --group-directories-first'
 alias la='exa -a --icons --color=always --group-directories-first'
 alias l='exa -F --icons --color=always --group-directories-first'
 alias l.='exa -a | egrep "^\."'
 
-# some more aliases
+### some more aliases
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias cat='bat'
 alias df='df -h'
 
-# terminal rickroll
+### terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'

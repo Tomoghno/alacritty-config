@@ -13,9 +13,9 @@
     background-color:           #1F1F1F;
     border-color:               #1F1F1F;
     text-color:                 #f6f6f6;
-    height:                     26px;
-    font:                       "Roboto Regular 11";
-    prompt-font:                "Roboto Bold 12";
+    height:                     27px;
+    font:                       "Fira Sans Book 11";
+    prompt-font:                "Fira Sans Bold 12";
     prompt-background:          #80B3F8;
     prompt-foreground:          #181818;
     prompt-padding:             2px;

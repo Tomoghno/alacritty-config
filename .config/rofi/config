@@ -9,7 +9,7 @@
  *
  * A customized rofi config.
  */
-rofi.theme: ~/.config/rofi/themes/maia.rasi
+rofi.theme: ~/.config/rofi/themes/system76.rasi
 
 /**
  * rofi.theme: ~/.config/rofi/themes/adwaita.rasi

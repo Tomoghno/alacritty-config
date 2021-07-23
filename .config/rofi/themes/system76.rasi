@@ -10,17 +10,17 @@
  * A customized rofi config.
  */
 * {
-    background-color:           #353535;
-    border-color:               #353535;
+    background-color:           #232121;
+    border-color:               #232121;
     text-color:                 #f6f6f6;
-    height:                     31px;
-    font:                       "Roboto Bold 11";
-    prompt-font:                "Roboto Bold 11";
-    prompt-background:          #128770;
-    prompt-foreground:          #f6f6f6;
-    prompt-padding:             4px;
-    selected-normal-background: #128770;
-    selected-normal-foreground: #f6f6f6;
+    height:                     27px;
+    font:                       "Fira Sans Book 11";
+    prompt-font:                "Fira Sans Bold 12";
+    prompt-background:          #94EBEB;
+    prompt-foreground:          #303030;
+    prompt-padding:             2px;
+    selected-normal-background: #94EBEB;
+    selected-normal-foreground: #303030;
 }
 #window {
     anchor: north;
@@ -49,7 +49,7 @@
     width: 10em;
 }
 #element {
-    padding: 4px 8px;
+    padding: 2px 8px;
 }
 #element selected {
     background-color: @selected-normal-background;

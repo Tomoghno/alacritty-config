@@ -12,7 +12,7 @@
 
 ## Software
 
-- OS: [Fedora](https://getfedora.org/)
+- OS: [Pop!_OS](https://pop.system76.com/)
 - Desktop: [GNOME](https://www.gnome.org/)
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 - Shell: [zsh](https://www.zsh.org/)

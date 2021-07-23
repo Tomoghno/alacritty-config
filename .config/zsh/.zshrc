@@ -81,12 +81,13 @@ ex ()
 }
 
 ### Aliases
-alias refresh="sudo dnf update --refresh && flatpak update"
+alias refresh="sudo apt update && sudo apt upgrade && flatpak update"
 alias lock='xdg-screensaver lock'
-alias zconf='nvim /home/tomoghno/.config/zsh/.zshrc'
+alias zconf='nvim $HOME/.config/zsh/.zshrc'
 alias edit='nvim'
 alias vim='nvim'
 alias vi='nvim'
+alias pak='flatpak --user'
 
 ### youtube-dl alias
 alias yt='youtube-dl'
@@ -111,7 +112,6 @@ alias l.='exa -a | egrep "^\."'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias cat='bat'
 alias df='df -h'
 
 ### terminal rickroll
