@@ -20,6 +20,7 @@
 - File Manager: [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - Music player: [Lollypop](https://wiki.gnome.org/Apps/Lollypop)
 - Virtual Machine: [Boxes](https://wiki.gnome.org/Apps/Boxes)
+- Browser: [Firefox](https://www.mozilla.org/en-US/firefox/new)
 
 ## State of configuration
 
