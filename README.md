@@ -13,12 +13,13 @@
 ## Software
 
 - OS: [Pop!_OS](https://pop.system76.com/)
-- Desktop: [GNOME](https://www.gnome.org/)
+- Desktop: [COSMIC](https://github.com/pop-os/cosmic)
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 - Shell: [zsh](https://www.zsh.org/)
 - Editor: [Neovim](https://neovim.io/)
 - File Manager: [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - Music player: [Lollypop](https://wiki.gnome.org/Apps/Lollypop)
+- Virtual Machine: [Boxes](https://wiki.gnome.org/Apps/Boxes)
 
 ## State of configuration
 
