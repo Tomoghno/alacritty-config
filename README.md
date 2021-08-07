@@ -4,7 +4,7 @@
     <i>My regularly updated dotfiles for Linux</i>
     <br/>
     <br/>
-    <a><img src="desktop.png"></a>
+    <a><img src="desktop.jpg"></a>
 </p>
 
 [![License: GPL v3](https://img.shields.io/github/license/Tomoghno/dotfiles?color=169D82&label=License&logoColor=f6f6f6)](http://www.gnu.org/licenses/gpl-3.0)
