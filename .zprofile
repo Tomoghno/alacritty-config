@@ -1,13 +1,11 @@
 #!/bin/sh
+#	 _____ ____  
+#	|_   _/ ___| 	Tomoghno Sen
+#	  | | \___ \ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+#	  | |  ___) |	https://github.com/Tomoghno
+#	  |_| |____/ 	https://gitlab.com/Tomoghno
 #
-#████████╗ ██████╗
-#╚══██╔══╝██╔════╝	Tomoghno Sen (DoodleCraft)
-#   ██║   ╚█████╗ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
-#   ██║    ╚═══██╗	https://github.com/Tomoghno
-#   ██║   ██████╔╝  https://gitlab.com/Tomoghno
-#   ╚═╝   ╚═════╝ 
-#
-# A customized .zprofile File
+# A customized .zprofile
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
