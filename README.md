@@ -27,6 +27,7 @@
 ### Working
 
 - Alacritty
+- Awesome WM
 - Bash
 - Legendary
 - Neovim
