@@ -4,7 +4,6 @@
 : 1604387473:0;ls -lh
 : 1604389131:4;gedit .zshrc
 : 1604390415:4;sudo apt install godot
-: 1604395579:25;sudo gedit /etc/environment
 : 1604407517:0;ln /home/tomoghno/Documents /home/tomoghno/Desktop/Documents
 : 1604407567:0;ln /home/tomoghno/Documents/Applications/Krita /home/tomoghno/Desktop/Krita
 : 1604407754:0;ln -s /home/tomoghno/Documents /home/tomoghno/Desktop/Documents
@@ -39,7 +38,6 @@
 : 1604552982:10;sudo apt purge glade
 : 1604552999:6;sudo apt purge devhelp
 : 1604553917:13;sudo apt install dosbox
-: 1604563332:246;wine Setup.exe
 : 1604574958:3;flatpak remote-add --user --if-not-exists winepak https://dl.winepak.org/repo/winepak.flatpakrepo
 : 1604575045:1;flatpak install winepak tld.domain.Application
 : 1604576585:3;flatpak remote-add --user --if-not-exists liri https://repo.liri.io/flatpak/files/liri.flatpakrepo
@@ -55,7 +53,6 @@
     pkg-config protobuf-compiler python3-minimal
 : 1604637767:18;git clone https://github.com/anbox/anbox.git --recurse-submodules
 : 1604637803:0;cd anbox
-: 1604637812:0;mkdir build
 : 1604638459:0;anbox launch
 : 1604638473:0;anbox version
 : 1604638487:0;anbox anbox
@@ -179,7 +176,6 @@
 : 1604844554:0;sudo apt install gsound
 : 1604846632:15;sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 : 1604846875:2;sudo apt install gimp gmic
-: 1604848226:158;sudo apt install gimp-gmic
 : 1604850323:2;wget https://gitlab.com/TriVoxel/deb-pacman/uploads/9f716f95c66cd90e65157773d6dea05b/deb-pacman_1.0-0.deb
 : 1604850505:6;pacman -Su
 : 1604850636:21;sudo apt install alien
@@ -428,661 +424,225 @@ cd droidcam
 : 1605349374:8;flatpak install flathub org.js.nuclear.Nuclear
 : 1605350903:5;sudo apt install
 : 1605350913:1;sudo apt install aria2
-: 1605352676:50;refresh
 : 1605415659:0;rm -r .Trash-1000
-: 1605416105:0;sudo nautilus
-: 1605458159:0;refresh
 : 1605499876:0;sudo apt install natron
 : 1605500577:0;natron
-: 1605500592:0;sudo nautilus
 : 1605500661:0;sudo apt purge natron
-: 1605503763:0;refresh
 : 1605506385:0;flatapk list
-: 1605506391:0;flatpak list
 : 1605506449:0;flatpak remove org.gtk.Gtk3theme.Yaru com.github.johnfactotum.Foliate org.gnome.Platform
-: 1605506456:0;flatpak list
-: 1605506683:0;sudo add-apt-repository ppa:apandada1/foliate-daily
-: 1605506702:0;repoman
-: 1605506754:0;refresh
-: 1605506785:0;flatpak list
-: 1605506787:0;repoman
-: 1605506815:0;sudo add-apt-repository ppa:apandada1/foliate-daily
-: 1605506873:0;repoman
-: 1605506975:0;refresh
-: 1605507047:0;repoman
-: 1605507410:0;sudo add-apt-repository ppa:apandada1/foliate-daily
-: 1605507440:0;sudo repoman
-: 1605507485:0;refresh
 : 1605507617:0;sudo repoman
 : 1605507814:0;sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ groovy main'
-: 1605507843:0;refresh
-: 1605507863:0;sudo apt autoremove
-: 1605507881:0;sudo apt install foliate
-: 1605508836:0;refresh
-: 1605508861:0;repoman
-: 1605508881:0;refresh
 : 1605510984:0;sudo apt install github-desktop
-: 1605513989:0;refresh
 : 1605514245:0;youtube-dl https://www.youtube.com/watch\?v\=W9V32bw1j3U
-: 1605515475:0;refresh
 : 1605541962:0;sudo apt install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
 : 1605542120:0;spci -k | grep -EA2 'VGA|3D'
-: 1605542130:0;bash
 : 1605542159:0;lspci -k | grep -EA2 'VGA|3D'h
-: 1605542755:0;refresh
-: 1605542874:0;legendary uninstall Morganite
-: 1605544717:0;refresh
 : 1605590175:0;sudo apt purge simplenote
 : 1605590201:0;flatpak install flathub com.simplenote.Simplenote
 : 1605591153:0;flatpak run com.simplenote.Simplenote
-: 1605600491:0;refresh
 : 1605604656:0;googlesouyp
-: 1605604671:0;googlesoup
-: 1605604738:0;tomoghno
-: 1605612225:0;sudo apt install thunar
 : 1605612314:0;sudo apt purge thunar
-: 1605612322:0;refresh
 : 1605612357:0;sudo dpkg-reconfigure nautilus
 : 1605613550:0;sudo nayutilus
-: 1605613561:0;sudo nautilus
-: 1605613632:0;sudo stacer
-: 1605613657:0;sudo nautilus
-: 1605614757:0;refresh
 : 1605619282:0;wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 : 1605619298:0;sudo apt-get install apt-transport-https
 : 1605619318:0;echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-: 1605619327:0;sudo apt update
-: 1605619336:0;repoman
-: 1605619365:0;sudo apt update
 : 1605619391:0;sudo apt install sublime-text
 : 1605619500:0;sudo apt remove sublime-text
-: 1605619522:0;repoman
-: 1605619544:0;refresh
-: 1605619601:0;vi
-: 1605619622:0;nano
-: 1605622185:0;refresh
-: 1605674153:0;sudo apt install playonlinux
-: 1605674490:0;sudo apt purge playonlinux
-: 1605674508:0;sudo apt autoremove
-: 1605675694:0;refresh
-: 1605678567:0;googlesoup
-: 1605678576:0;zypper
 : 1605678580:0;copy
-: 1605678597:0;clear
-: 1605678610:0;cleat
-: 1605682269:0;refresh
-: 1605683134:0;./install.sh
-: 1605684369:0;refresh
-: 1605684398:0;googlesoup
-: 1605685186:0;refresh
 : 1605685941:0;sudo apt install meson python3-cairo python3-gi gir1.2-pango-1.0 gir1.2-gdkpixbuf-2.0 gir1.2-gtk-3.0 itstool gettext python3-lxml
 : 1605685986:0;sudo apt install python3-nose python3-pyflakes python3-pep8 python3-pycodestyle python3-mock
-: 1605686066:0;./launch.sh
 : 1605686096:0;sudo apt install python3-cheetah pdftk-java pdfjam texlive-latex-base
-: 1605686121:0;pip3 install --user -e git+https://github.com/getting-things-gnome/liblarch.git#egg=liblarch
-: 1605686131:0;./launch.sh
-: 1605686460:0;sudo nautilus
-: 1605686652:0;./launch.sh
-: 1605686682:0;meson install
-: 1605686699:0;sudo make install
-: 1605686807:0;./launch.sh
 : 1605686854:0;pip3 install --user -e git+https://github.com/getting-things-gnome/liblarch.git#egg=liblarch
-: 1605686868:0;./launch.sh
-: 1605686964:0;sudo make install
-: 1605687042:0;./launch.sh
-: 1605687946:0;repoman
-: 1605688366:0;refresh
-: 1605688507:0;sudo apt install google-chrome-stable
 : 1605688595:0;flatpak lista
-: 1605688597:0;flatpak list
 : 1605688615:0;flatpak remove spotify
-: 1605688622:0;flatpak list
-: 1605688640:0;repoman
 : 1605688677:0;curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
-: 1605688693:0;echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-: 1605688704:0;sudo apt-get update && sudo apt-get install spotify-client
 : 1605688740:0;flatpak install Spotify
-: 1605688766:0;repoman
-: 1605688818:0;sudo apt install spotify-client
-: 1605688828:0;flatpak list
 : 1605688877:0;flatpak remove org.freedesktop.Platform.ffmpeg-full org.freedesktop.Platform.ffmpeg
-: 1605690208:0;spotify
-: 1605690217:0;spotify-client
-: 1605690222:0;sudo apt install spotify-client
 : 1605690233:0;spotify-client
-: 1605690333:0;spotify
-: 1605690598:0;repoman
-: 1605690607:0;flatpak
-: 1605690612:0;flatpak list
 : 1605690847:0;reggooglesoup
-: 1605690900:0;googlesoup
-: 1605690910:0;neofetch
 : 1605690914:0;clesr
-: 1605690930:0;clear
-: 1605694455:0;sudo apt install ardour
-: 1605694605:0;sudo nautilus
-: 1605702177:0;googlesoup
-: 1605702217:0;refresh
-: 1605703661:0;googlesoup
-: 1605703667:0;repoman
-: 1605705959:0;refresh
-: 1605706807:0;neofetch
 : 1605710080:0;wget https://download141.uploadhaven.com/1/application/zip/A2VMWjmHLqz2v0MtWOpNOTRFfJspqiumltY4AitL.zip\?key\=E-FzVQgakFbljTtUBZyN2Q\&expire\=1605720820\&filename\=Plants.Vs.Zombies.GOTY.zip
 : 1605757901:0;refrsh
-: 1605757904:0;refresh
-: 1605758148:0;flatpak list
 : 1605758194:0;flatpak remove org.kde.PlatformTheme.QGnomePlatform.Sources
-: 1605758287:0;refresh
 : 1605760709:0;flatpak install flathub org.desmume.DeSmuME
 : 1605760779:0;flatpak remove org.desmume.DeSmuME
-: 1605761153:0;neofetch
-: 1605761386:0;sudo nautilus
 : 1605762280:0;sudo apt purge desmemu
 : 1605762303:0;sudo apt purge desmume
-: 1605762323:0;sudo apt autoremove
-: 1605762338:0;sudo nautilus
-: 1605762754:0;refresh
-: 1605765812:0;sudo apt purge spotify-client
-: 1605765840:0;flatpak install spotify
-: 1605766016:0;repoman
 : 1605766059:0;dpkg reconfigure spotify
 : 1605766082:0;sudo dpkg-reconfigure flatpak
-: 1605766090:0;flatpak install spotify
 : 1605766267:0;flatpak refresh
-: 1605766274:0;refresh
-: 1605767478:0;sudo nautilus
 : 1605768475:0;curl http://wttr.in
 : 1605769421:0;77555+85984111rgmrkhtkkkfkgjgjgjtiiitititii
-: 1605769664:0;refresh
 : 1605770733:0;sudo apt install playonlinux
-: 1605771100:0;sudo nautilus
 : 1605798079:0;sudo apt purge playonlinux
-: 1605800459:0;refresh
-: 1605846425:0;sudo nautilus
-: 1605846538:0;refresh
-: 1605847603:0;sudo rm -r expunged
 : 1605848350:0;youtube-dl https://www.youtube.com/watch\?v\=8_n63SVNgSo
 : 1605849121:0;sudo apt purge gnome-twitch
-: 1605849511:0;refresh
-: 1605852262:0;w3m
 : 1605852274:0;sudo apt purge w3m
-: 1605853186:0;refresh
-: 1605856552:0;sudo nautilus
-: 1605857215:0;sudo stacer
-: 1605857339:0;sudo nautilus
-: 1605857436:0;sudo update-alternatives --config gdm3-theme.gresource
-: 1605857451:0;sudo update-initramfs -u
-: 1605867963:0;sudo update-alternatives --config gdm3-theme.gresource
-: 1605867973:0;sudo update-initramfs -u
-: 1605867979:0;refresh
 : 1605885708:0;qemu
-: 1605885712:0;refresh
-: 1605885743:0;sudo apt update
-: 1605885770:0;refresh
-: 1605886130:0;flatpak update
-: 1605886161:0;flatpak list
 : 1605886182:0;flatpak run
 : 1605886187:0;flatpak run org.tlauncher.TLauncher
-: 1605886214:0;flatpak update
 : 1605886228:0;flatpak remove org.tlauncher.TLauncher
-: 1605886240:0;flatpak install org.tlauncher.TLauncher
-: 1605886249:0;flatpak update
 : 1605886256:0;flatpak install org.tlauncher.TLauncher
 : 1605886320:0;flatpak install flathub org.tlauncher.TLauncher
-: 1605886534:0;sudo nautilus
-: 1605887219:0;sudo io.elementary.appcenter
 : 1605887336:0;flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
 : 1605887364:0;sudo io.elementary.appcenter
-: 1605887748:0;sudo nautilus
-: 1605887912:0;flatpak update
-: 1605888025:0;flatpak
 : 1605888038:0;flatpak remote-add --user flathub https://flathub.org/repo/flathub.flatpakrepo
-: 1605888046:0;flatpak update
-: 1605888093:0;flatpak install spotify
-: 1605888220:0;echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-: 1605888233:0;sudo apt-get update && sudo apt-get install spotify-client
-: 1605888339:0;repoman
-: 1605888358:0;sudo apt purge flatpak
 : 1605888394:0;sudo apt install xdg-desktop-portal-gtk
 : 1605888397:0;sudo apt purge flatpak
-: 1605888413:0;sudo apt-get update && sudo apt-get install spotify-client
-: 1605890180:0;googlesoup
 : 1605890190:0;sudo apt-get update && sudo apt-get install spotify-client
 : 1605890304:0;sudo apt install flatpak
-: 1605890335:0;flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-: 1605890360:0;flatpak update
-: 1605951598:0;refresh
 : 1605951854:0;brave-browser
 : 1605952523:0;sudo apt purge brave-browser
 : 1605952591:0;sudo apt purge brave-keyring
-: 1605953470:0;refresh
-: 1605953500:0;repoman
-: 1605953519:0;refresh
-: 1605953634:0;repoman
-: 1605954893:0;refresh
-: 1605962652:0;repoman
 : 1605962709:0;sudo apt purge foliate
-: 1605962731:0;refresh
-: 1605962985:0;winecfg
-: 1605963248:0;sudo apt install com.github.tkashkin.gamehub
-: 1605966367:0;googlesoup
-: 1605966374:0;repoman
-: 1605966412:0;googlesoup
 : 1605966452:0;tomoghno
-: 1605966760:0;repoman
-: 1605966977:0;shop
-: 1606020015:0;refresh
 : 1606020063:0;sudo apt install pitivi
-: 1606020120:0;sudo apt purge kdenlive
-: 1606020129:0;refresh
 : 1606020918:0;sudo apt purge kdeconnect
-: 1606020942:0;sudo apt autoremove
-: 1606020954:0;sudo apt autoclean
-: 1606021701:0;refresh
-: 1606021713:0;repoman
-: 1606024113:0;refresh
-: 1606024812:0;htop
-: 1606024823:0;repoman
-: 1606028465:0;sudo nautilus
 : 1606028650:0;lspci -nnk | grep -i -EA3 "3d|display|vga"
-: 1606031440:0;refresh
-: 1606061124:0;googlesoup
-: 1606061131:0;repoman
 : 1606063304:0;ln ~/Games ~/legendary
 : 1606063314:0;ln -s ~/Games ~/legendary
-: 1606115065:0;refresh
-: 1606115255:0;neofetch
 : 1606117339:0;ssh tomoghno@192.168.122.215 -x
 : 1606117388:0;ssh tomoghno@192.168.122.215 -X
-: 1606119283:0;refresh
 : 1606134148:0;flatpak install flathub io.mrarm.mcpelauncher
-: 1606134412:0;glxgears
-: 1606134600:0;java -version
 : 1606135349:0;java TLauncher.jar
-: 1606135357:0;java -jar TLauncher.jar
 : 1606135604:0;java -jar /Tlauncher.jar
-: 1606135626:0;java -jar TLauncher.jar
-: 1606137273:0;refresh
 : 1606137682:0;java -jar TLauncher.jar
-: 1606138375:0;sudo nautilus
-: 1606139296:0;refresh
-: 1606143790:0;glxgears
-: 1606148582:0;gedit
-: 1606148910:0;refresh
 : 1606200383:0;sudo apt install libflatpak-dev
 : 1606200405:0;sudo apt install libgranite-dev
 : 1606200415:0;sudo apt install valac
-: 1606200483:0;meson build --prefix=/usr
-: 1606200495:0;ninja
-: 1606200503:0;ninja install
-: 1606200520:0;io.elementary.sideload
-: 1606201456:0;sudo nautilus
-: 1606203596:0;refresh
 : 1606207891:0;systemctl
 : 1606207906:0;systemctl services
 : 1606207910:0;systemctl -services
 : 1606207914:0;systemctl --services
-: 1606207927:0;shop
-: 1606218332:0;refresh
-: 1606231187:0;legendary list-games
 : 1606231220:0;legendary install BusSimulator18
-: 1606232776:0;refresh
 : 1606276137:0;./install.sh --logo gnome
-: 1606276631:0;refresh
-: 1606276921:0;repoman
-: 1606283409:0;refresh
-: 1606285467:0;sudo nautilus
-: 1606285904:0;sudo stacer
 : 1606285937:0;sudo apt purge ardour6
-: 1606285942:0;sudo apt purge ardour
-: 1606285962:0;sudo apt autoremove
 : 1606285974:0;sudo apt purge ardour
 : 1606285999:0;sudo apt install audacity
 : 1606286078:0;sudo apt install lmms
-: 1606286137:0;sudo stacer
-: 1606286144:0;sudo nautilus
-: 1606291529:0;refresh
-: 1606292118:0;winecfg
 : 1606292564:0;sudo apt install gnome-web
 : 1606292581:0;sudo apt install epiphany
 : 1606292652:0;sudo apt install epiphany-browser
 : 1606292675:0;sudo apt purge epiphany
-: 1606292693:0;sudo apt autoremove
-: 1606304849:0;refresh
-: 1606305126:0;adb devices
 : 1606305347:0;adb install '/home/tomoghno/Downloads/com.whatsapp_2.20.206.18-205618000_minAPI16(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk' 
-: 1606306780:0;sudo nautilus
-: 1606312482:0;sudo cp gimp-splash.png /usr/share/gimp/2.0/images/
-: 1606312504:0;sudo nautilus
-: 1606312804:0;sudo stacer
-: 1606312865:0;sudo nautilus
-: 1606313471:0;sudo apt install gimp
 : 1606315050:0;sudo cp gimp-splash.png /usr/share/gimp/2.0/images/
-: 1606316074:0;refresh
 : 1606316180:0;sudo cd /usr/share/gimp/2.0/images/
 : 1606316189:0;cd /usr/share/gimp/2.0/images/
 : 1606316208:0;sudo rm -r gimp-splash.png
-: 1606317132:0;chsh
-: 1606317171:0;refresh
-: 1606321300:0;sudo apt install figma-linux
 : 1606321312:0;sudo apt upgrade figma-linux
-: 1606321347:0;sudo apt remove figma-linux
-: 1606321525:0;repoman
-: 1606321920:0;sudo nautilus
-: 1606323835:0;refresh
 : 1606324124:0;sudo apt purge kdenlive
-: 1606324145:0;sudo apt autoremove
 : 1606324227:0;sudo apt install olive
 : 1606324245:0;sudo apt install olive-editor
 : 1606324655:0;olive
 : 1606324662:0;olive-editor
-: 1606324686:0;sudo nautilus
-: 1606362614:0;refresh
-: 1606363510:0;sudo apt install openshot
-: 1606367692:0;sudo nautilus
-: 1606369277:0;refresh
-: 1606371473:0;sudo nautilus
-: 1606373670:0;refresh
 : 1606374733:0;sudo apt install -y gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-plugins-good libavcodec-extra gstreamer1.0-libav chromium-codecs-ffmpeg-extra libdvd-pkg
 : 1606374775:0;sudo apt install winehq-staging
 : 1606374847:0;apt-get check
 : 1606374862:0;sudo apt-get check~
 : 1606374866:0;sudo apt-get check
 : 1606374886:0;sudo apt remove libdvd-pkg
-: 1606374897:0;refresh
-: 1606374908:0;winecfg
-: 1606375330:0;scrcpy
-: 1606376933:0;refresh
-: 1606395982:0;htop
-: 1606397646:0;sudo nautilus
-: 1606400032:0;refresh
-: 1606400719:0;sudo nautilus
-: 1606401857:0;refresh
-: 1606408480:0;lightworks
-: 1606456096:0;meson build --prefix=/usr
-: 1606456289:0;cd build
-: 1606456294:0;ninja
-: 1606456317:0;sudo ninja install
 : 1606456569:0;com.github.alainm23.byte
-: 1606456644:0;sudo ninja uninstall
-: 1606457072:0;meson build --prefix=/usr
-: 1606457077:0;cd build
-: 1606457081:0;ninja
-: 1606457096:0;sudo ninja install
-: 1606457284:0;sudo ninja uninstall
-: 1606457303:0;meson build --prefix=/usr
-: 1606457306:0;cd build
-: 1606457308:0;ninja
-: 1606457318:0;sudo ninja install
-: 1606457442:0;sudo ninja uninstall
 : 1606457553:0;git clone https://github.com/hannesschulze/optimizer.git && cd optimizer
-: 1606457567:0;meson build --prefix=/usr
 : 1606457589:0;sudo apt install libgtop2-dev
-: 1606457601:0;meson build --prefix=/usr
 : 1606457618:0;sudo apt install libwnck-3-dev
-: 1606457631:0;meson build --prefix=/usr
 : 1606457721:0;meson --reconfigure
-: 1606457737:0;ninja
-: 1606457758:0;sudo ninja install
-: 1606457798:0;sudo ninja uninstall
 : 1606460944:0;sudo apt purge lightworks
-: 1606460960:0;sudo apt autoremove
 : 1606460976:0;sudo apt install shotcut
 : 1606461524:0;sudo apt purge shotcut
 : 1606461544:0;sudo apt install openshot
 : 1606461570:0;sudo apt install flowblde
 : 1606461574:0;sudo apt install flowblade
-: 1606463927:0;refresh
-: 1606464546:0;cd Downloads
-: 1606464561:0;git clone https://gitlab.gnome.org/GNOME/sushi.git
-: 1606464593:0;meson build --prefix=/usr
 : 1606464607:0;evince-document-3.0
 : 1606464611:0;evince-document
 : 1606464614:0;evince
-: 1606464773:0;meson build --prefix=/usr
-: 1606466900:0;refresh
 : 1606467374:0;io.elementary.appcenter
-: 1606467390:0;io.elementary.sideload
-: 1606467544:0;git
-: 1606467550:0;gedit
-: 1606467945:0;refresh
-: 1606468053:0;neofetch
-: 1606485429:0;refresh
-: 1606485462:0;sudo apt purge alacritty
-: 1606485481:0;refresh
 : 1606496056:0;npm
 : 1606496089:0;git clone https://github.com/ytmdesktop/ytmdesktop
-: 1606496105:0;npm install
-: 1606496120:0;npm install -g npm
 : 1606496164:0;npm install
 : 1606496925:0;npm audit fix
 : 1606496946:0;npm start
-: 1606541428:0;refresh
-: 1606541722:0;neofetch
 : 1606542009:0;git clone https://gitlab.gnome.org/GNOME/sushi.git
 : 1606542047:0;sudo apt install meson libevince-dev gir1.2-gstreamer-1.0 librust-gstreamer-audio-sys-dev librust-gstreamer-audio-sys-dev libgtksourceview-4-dev libmusicbrainz5-dev libwebkit2gtk-4.0-dev libgirepository1.0-dev ninja-build
 : 1606542076:0;meson builddir && cd builddir
 : 1606542088:0;sudo meson install
-: 1606542155:0;sudo nautilus
 : 1606542646:0;sudo meson uninstall
-: 1606542680:0;sudo ninja uninstall
-: 1606542705:0;refresh
 : 1606542757:0;sudo apt purge libevince-dev librust-gstreamer-audio-sys-dev librust-gstreamer-audio-sys-dev libgtksourceview-4-dev libmusicbrainz5-dev libwebkit2gtk-4.0-dev libgirepository1.0-dev
-: 1606542770:0;sudo apt autoremove
-: 1606543172:0;refresh
 : 1606546293:0;gst-inspect-1.0
 : 1606547853:0;./run_buttleofx.sh
-: 1606550432:0;googlesoup
 : 1606550585:0;ln -s /home/tomoghno/legendary/Vice-City/gta-vc.exe /home/tomoghno/Desktop
 : 1606550632:0;ln /home/tomoghno/legendary/Vice-City/gta-vc.exe /home/tomoghno/Desktop
-: 1606551229:0;legendary list-games
-: 1606551255:0;legendary install Hornbill
-: 1606551475:0;legendary launch Hornbill
-: 1606551553:0;gedit
-: 1606565151:0;curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
-: 1606565226:0;sudo nautilus
 : 1606565421:0;spicetify
-: 1606565611:0;curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
 : 1606565650:0;/home/tomoghno/spicetify-cli/spicetify --help
 : 1606565746:0;sudo chmod a+wr /usr/share/spotify
 : 1606565761:0;sudo chmod a+wr /usr/share/spotifyApps -R
 : 1606565769:0;sudo chmod a+wr /usr/share/spotify/Apps -R
 : 1606565850:0;spicetify update
-: 1606565856:0;./spicetify update
-: 1606565870:0;./spicetify backup apply
 : 1606566040:0;./spicetify update
 : 1606566050:0;./spicetify restart
 : 1606566210:0;./spicetify --help
 : 1606566232:0;./spicetify restore
-: 1606570053:0;refresh
-: 1606571383:0;./install.sh
 : 1606572376:0;https://github.com/vinceliuice/Canta-theme.git
 : 1606572386:0;git clone https://github.com/vinceliuice/Canta-theme.git
 : 1606572898:0;./installer.sh
-: 1606573496:0;refresh
 : 1606578202:0;ssh tomoghno
-: 1606578213:0;ssh tomoghno@192.168.122.182 -X
 : 1606578790:0;sudo apt install paprefs
 : 1606578833:0;sudo paprefs
-: 1606578852:0;ssh tomoghno@192.168.122.182 -X
 : 1606578963:0;ssh -R tomoghno@192.168.122.182 -X
-: 1606578973:0;ssh tomoghno@192.168.122.182 -X
-: 1606579076:0;ip a
 : 1606579132:0;export PULSE_SERVER="tcp:192.168.122.182"
 : 1606579276:0;xprop -root PULSE_SERVER
-: 1606579332:0;ip a
-: 1606579412:0;ssh tomoghno@192.168.122.182 -X
-: 1606579498:0;google-chrome
-: 1606579586:0;spotify
-: 1606634421:0;sudo nautilus
-: 1606634692:0;refresh
-: 1606634979:0;flatpak install spotify
-: 1606635025:0;sudo apt purge spotify
-: 1606635034:0;sudo apt purge spotify-client
-: 1606635043:0;repoman
-: 1606635073:0;sudo apt update
-: 1606635488:0;flatpak list
-: 1606636740:0;sudo nautilus
-: 1606640037:0;echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-: 1606640048:0;sudo apt update
-: 1606642065:0;refresh
 : 1606642194:0;youtube-dl https://www.youtube.com/watch\?v\=_q7ZCWrm3L4
 : 1606642612:0;env GTK_THEME=elementary totem
 : 1606642624:0;env GTK_THEME=pop totem
-: 1606642636:0;env GTK_THEME=adwaita totem
 : 1606642650:0;env GTK_THEME=canta totem
 : 1606642656:0;env GTK_THEME=Canta totem
 : 1606642665:0;env GTK_THEME=Canta-dark totem
 : 1606642676:0;env GTK_THEME=Pop totem
 : 1606642692:0;env GTK_THEME=Pop-dark totem
 : 1606647020:0;env GTK_THEME=elementary nautilus
-: 1606648464:0;googlesoup
-: 1606648733:0;repoman
-: 1606649823:0;adb
-: 1606649830:0;scrcpy
 : 1606657095:0;sudo add-apt-repository https://launchpad.net/\~kritalime/+archive/ubuntu/ppa
-: 1606657130:0;repoman
-: 1606657165:0;sudo apt update
-: 1606657174:0;repoman
-: 1606657287:0;sudo apt update
-: 1606657303:0;repoman
-: 1606657316:0;sudo apt update
 : 1606657329:0;sudo add-apt-repository ppa:kritalime/ppa
-: 1606657360:0;sudo apt update
-: 1606657441:0;sudo apt install krita
-: 1606657825:0;KRITA_NO_STYLE_OVERRIDE=1 krita
 : 1606660817:0;cd builddir
-: 1606660845:0;meson build
 : 1606660863:0;rustc --version
 : 1606660873:0;sudo apt install rust
 : 1606660879:0;sudo apt install rustc
 : 1606661654:0;sudo apt install albert
 : 1606662179:0;sudo apt purge synapse
-: 1606662191:0;refresh
 : 1606665159:0;elisa
-: 1606665195:0;refresh
 : 1606666275:0;sudo apt-get clean
 : 1606666310:0;sudo apt-get autoclean
 : 1606666492:0;journalctl -rb -1
 : 1606666522:0;sudo cp /etc/systemd/system.conf /etc/systemd/system.conf.orig
 : 1606666551:0;sudo xdg-open /etc/systemd/system.conf
-: 1606711487:0;neofetch
-: 1606711681:0;refresh
-: 1606711716:0;sudo nautilus
-: 1606712494:0;sudo synaptic
-: 1606712512:0;sudo stacer
-: 1606712529:0;sudo synaptic
-: 1606712535:0;sudo nautilus
-: 1606713832:0;gsettings set org.gnome.desktop.sound input-feedback-sounds true
-: 1606713995:0;meson "build"
-: 1606714004:0;sudo ninja -C "build" install
 : 1606714080:0;sudo gsettings set org.gnome.desktop.sound input-feedback-sounds true
-: 1606715404:0;refresh
 : 1606717738:0;sudo apt purge materia-gtk-theme
-: 1606717833:0;sudo nautilus
-: 1606735087:0;refresh
-: 1606736080:0;neofetch
-: 1606738535:0;sudo nautilus
-: 1606743509:0;refresh
 : 1606745701:0;dpkg-deb --build webapp-manager
-: 1606745883:0;make
-: 1606745891:0;make install
-: 1606745899:0;sudo make install
 : 1606745931:0;./test
-: 1606746013:0;make
-: 1606746018:0;ninja
-: 1606747777:0;adb devices
 : 1606750124:0;wine IllustratorCS6Portable.exe
 : 1606750250:0;wine Illustrator.exe
-: 1606794374:0;alert
-: 1606794469:0;refresh
-: 1606794665:0;neofetch
-: 1606802445:0;refresh
-: 1606805652:0;winecfg
 : 1606805923:0;wine DXVK_HUD=fps Granny Chapter Two.exe
 : 1606805940:0;wine Granny Chapter Two.exe
 : 1606805979:0;wine DXVK_HUD=fps /home/tomoghno/Games/Granny Chapter Two/Granny Chapter Two.exe
 : 1606805993:0;wine /home/tomoghno/Games/Granny Chapter Two/Granny Chapter Two.exe
-: 1606806886:0;./legendary
 : 1606806899:0;./legendary update
-: 1606806913:0;./legendary list-games
 : 1606806929:0;which legendary
-: 1606806971:0;./setup.py
-: 1606807023:0;sudo nautilus
-: 1606807209:0;legendary
-: 1606807215:0;legendary list-games
-: 1606807252:0;legendary launch hornbill
-: 1606807261:0;legendary launch Hornbill
-: 1606807520:0;./setup_dxvk.sh
-: 1606807537:0;./setup_dxvk.sh install
-: 1606807886:0;./setup_dxvk.sh
-: 1606807900:0;./setup_dxvk.sh install  --with-d3d10
-: 1606808885:0;winecfg
-: 1606809246:0;legendary
-: 1606811745:0;refresh
-: 1606813702:0;exa
-: 1606813710:0;sudo apt install exa
-: 1606813729:0;exa -al --color=always --group-directories-first
-: 1606813736:0;ll
 : 1606813765:0;exa -a --color=always --group-directories-first
-: 1606813771:0;ls -a
 : 1606813774:0;ls 
 : 1606814022:0;exa -l --color=always --group-directories-first
 : 1606814028:0;exa -al --color=always --group-directories-first
-: 1606834188:0;refresh
-: 1606834420:0;./install.sh --logo gnome --image
 : 1606834451:0;sudo apt install sassc
 : 1606834464:0;./install.sh --logo gnome --image
-: 1606834699:0;sudo nautilus
-: 1606889084:0;refresh
 : 1606889138:0;sudo apt upgrade lutris
-: 1606890380:0;refresh
-: 1606890421:0;sudo apt upgrade -y
-: 1606890451:0;sudo apt upgrade --allow-downgrades
-: 1606890464:0;refresh
-: 1606890475:0;sudo apt upgrade --allow-downgrades
-: 1606890507:0;sudo apt upgrade -y
-: 1606890514:0;refresh
-: 1606891692:0;sudo apt autoremove
-: 1606891702:0;refresh
 : 1606891792:0;sudo add-apt-repository ppa:lutris-team/lutris
-: 1606891800:0;sudo add-apt-repository ppa:lutris-team/lutris  -y
-: 1606891819:0;refresh
-: 1606891833:0;sudo apt upgrade --allow-downgrades
-: 1606891847:0;refresh
-: 1606891868:0;sudo apt install lutris
-: 1606891877:0;repoman
-: 1606891961:0;sudo  apt remove lutris
-: 1606892047:0;repoman
-: 1606892088:0;refresh
-: 1606892109:0;synaptic
-: 1606892141:0;refresh
-: 1606892150:0;repoman
-: 1606892164:0;refresh
-: 1606892221:0;sudo apt install lutris
 : 1606892527:0;sudo apt-get install nautilus-admin
 : 1606892549:0;nautilus -q
-: 1606892820:0;refresh
-: 1606892936:0;sudo apt remove lutris
-: 1606892946:0;refresh
-: 1606893088:0;sudo apt install lutris
-: 1606893224:0;sudo apt remove lutris
-: 1606893315:0;refresh
 : 1606893391:0;sudo dpkg -i lutris_0.5.8.1_all.deb --allow-downgrades
 : 1606893399:0;sudo dpkg -i lutris_0.5.8.1_all.deb
-: 1606893406:0;refresh
 : 1606893426:0;refresh --allow-downgrades
-: 1606893458:0;sudo apt upgrade --allow-downgrades
 : 1606894392:0;sudo google-chrome
 : 1606894418:0;google-chrome --no-sandbox
-: 1606894445:0;google-chrome
 : 1606896167:0;https://ssl.gstatic.com/images/branding/product/1x/messages_96dp.png
 : 1606898464:0;ln -s /home/tomoghno/Documents /home/tomoghno/.wine/drive_c/users/tomoghno/My Documents
-: 1606898514:0;ln -s /home/tomoghno/Documents /home/tomoghno/.wine/drive_c/users/tomoghno/My-Documents
-: 1606898570:0;ln -s /home/tomoghno/Music /home/tomoghno/.wine/drive_c/users/tomoghno/My-Music
-: 1606898605:0;ln -s /home/tomoghno/Pictures /home/tomoghno/.wine/drive_c/users/tomoghno/My-Pictures
-: 1606898649:0;ln -s /home/tomoghno/Videos /home/tomoghno/.wine/drive_c/users/tomoghno/My-Videos
-: 1606898707:0;ln -s /home/tomoghno/Desktop /home/tomoghno/.wine/drive_c/users/tomoghno/Desktop
 : 1606898757:0;ln -s /home/tomoghno/Templates /home/tomoghno/.wine/drive_c/users/tomoghno/Templates
 : 1606898985:0;ln -s /home/tomoghno/Desktop /home/tomoghno/.wine/drive_c/users/tomoghno/Desktop
 : 1606898989:0;ln -s /home/tomoghno/Videos /home/tomoghno/.wine/drive_c/users/tomoghno/My-Videos
@@ -1090,375 +650,136 @@ cd droidcam
 : 1606898997:0;ln -s /home/tomoghno/Music /home/tomoghno/.wine/drive_c/users/tomoghno/My-Music
 : 1606899007:0;ln -s /home/tomoghno/Documents /home/tomoghno/.wine/drive_c/users/tomoghno/My-Documents
 : 1606901704:0;ln -s /home/tomoghno/Downloads /home/tomoghno/.wine/drive_c/users/tomoghno/Downloads
-: 1606903909:0;meson build --prefix=/usr -Dprofile=default
-: 1606904027:0;cd build
-: 1606904031:0;ninja
-: 1606904073:0;sudo ninja install
-: 1606904205:0;cd .
-: 1606904220:0;clear
 : 1606904222:0;c
-: 1606904230:0;clear
-: 1606904269:0;sudo nautilus
 : 1606904465:0;which akira
-: 1606904565:0;sudo nautilus
-: 1606904752:0;sudo ninja uninstall
 : 1606905141:0;meson build --prefix=/usr -Dprofile=default
-: 1606905162:0;cd build
-: 1606905165:0;ninja
-: 1606905195:0;sudo ninja install
-: 1606905349:0;sudo ninja uninstall
-: 1606905358:0;cd build
-: 1606905360:0;sudo ninja uninstall
 : 1606906389:0;sudo apt purge goocanvas
 : 1606927612:0;dpkg-deb -e lutris.deb lutris/DEBIAN
-: 1606927636:0;dpkg-deb -e lutris.deb /DEBIAN
 : 1606927645:0;sudo dpkg-deb -e lutris.deb /DEBIAN
 : 1606927657:0;dpkg-deb -e lutris.deb /DEBIAN
-: 1606927694:0;ll
-: 1606927698:0;la
-: 1606927756:0;git clone https://github.com/lutris/lutris.git
 : 1606928004:0;lutris -d
 : 1606928109:0;sudo apt install dpkg-dev devscripts
 : 1606928255:0;dpkg-buildpackage -rfakeroot -b -uc -us
-: 1606928311:0;make
-: 1606928335:0;ninja
-: 1606928339:0;cmake
-: 1606928359:0;make install
 : 1606928646:0;sudo add-apt-repository ppa:lutris-team/lutris -y
-: 1606928667:0;repoman
-: 1606928675:0;sudo synaptic
-: 1606928729:0;repoman
-: 1606928772:0;refresh
 : 1606928791:0;synaptic
-: 1606928818:0;sudo synaptic
-: 1606928920:0;sudo apt install lutris
-: 1606928946:0;sudo apt purge lutris
-: 1606928987:0;apt-cache showpkg lutris
 : 1606929039:0;sudo apt install lutris=0.5.8~ubuntu21.04.1
-: 1606929049:0;refresh
 : 1606929072:0;sudo apt install lutris=0.5.8~ubuntu21.04.1 --allow-downgrades
 : 1606929135:0;sudo synaptic
-: 1606929246:0;sudo apt remove lutris
-: 1606929253:0;repoman
-: 1606929284:0;refresh
 : 1606929307:0;apt-cache showpkg lutris
 : 1606929329:0;sudo apt install lutris=0.5.8.1
-: 1606929356:0;refresh
 : 1606929423:0;sudo echo "lutris hold" | sudo dpkg  \B3set-selections
-: 1606929437:0;refresh
 : 1606929491:0;sudo echo "lutris hold" | sudo dpkg --set-selections
-: 1606929493:0;refresh
-: 1606929583:0;repoman
-: 1606929595:0;sudo apt install muon
 : 1606929694:0;sudo apt purge synaptic
-: 1606929702:0;refresh
-: 1606929886:0;sudo apt install lutris
-: 1606929897:0;repoman
-: 1606929912:0;refresh
 : 1606930615:0;rootsetting
-: 1606930799:0;top
-: 1606930805:0;htop
 : 1606931154:0;poweroff
-: 1606966455:0;refresh
-: 1606967530:0;repoman
 : 1606967569:0;sudo add-apt-repository ppa:tkashkin/gamehub
-: 1606967612:0;repoman
-: 1606967659:0;refresh
 : 1606968414:0;sudo apt remove dosbox
-: 1606968430:0;sudo apt autoremove
-: 1606970184:0;sudo nautilus
-: 1606970341:0;bashtop
 : 1606971143:0;ln -s /home/tomoghno/Games/King-of-Crabs  /home/.local/share/Steam/steamapps/common/King of Crabs
 : 1606971170:0;ln -s /home/tomoghno/Games/King-of-Crabs  /home/.local/share/Steam/steamapps/common/KingofCrabs
 : 1606971262:0;ln -s /home/tomoghno/Games/KingofCrabs  /home/.local/share/Steam/steamapps/common/KingofCrabs
 : 1606971286:0;ln -s /home/tomoghno/Games/Steam  /home/.local/share/Steam/steamapps/common/
-: 1606972073:0;sudo apt purge com.github.tkashkin.gamehub
-: 1606972093:0;sudo apt autoremove
 : 1606972125:0;sudo apt install com.github.tkashkin.gamehub
 : 1606972570:0;sudo apt purge com.github.tkashkin.gamehub
-: 1606972585:0;sudo apt autoremove
 : 1606972695:0;git clone https://github.com/lutris/lutris.git
 : 1606972741:0;sudo apt remove lutris
 : 1606972767:0;sudo apt install fonts-wine fuseiso libwine-development python3-evdev python3-setproctitle winetricks
-: 1606972807:0;./setup.py
-: 1606972818:0;./setup.py  --help
 : 1606972832:0;./setup.py  build
 : 1606972838:0;./setup.py  install
-: 1606972874:0;sudo ./setup.py install
-: 1606972906:0;lutris
-: 1606972946:0;sudo ./setup.py install
-: 1606972975:0;make
-: 1606973009:0;sudo apt install lutris
-: 1606973018:0;lutris
-: 1606973039:0;sudo  nautilus
-: 1606973097:0;sudo apt purge lutris
-: 1606973105:0;sudo apt install lutris
-: 1606973112:0;lutris
-: 1606973129:0;sudo nautilus
-: 1606973167:0;./setup.py
 : 1606973179:0;./setup.py --help-commands
 : 1606973185:0;./setup.py --help
 : 1606973237:0;./setup.py uninstall
-: 1606973347:0;sudo stacer
-: 1606973396:0;sudo apt install lutris
-: 1606973414:0;sudo apt purge lutris
 : 1606973420:0;sudo apt install lutris
-: 1606973434:0;lutris
-: 1606980144:0;gnome-screensaver-command --lock
-: 1606980166:0;gnome-session-quit --lock
-: 1606980179:0;refresh
 : 1606980257:0;gnome-screensaver-command --lock
 : 1606980277:0;xdg-screensaver lock
-: 1606980389:0;lock
 : 1606983075:0;ln -s ~/.config/GIMP ~/.local/share/GIMP
-: 1607000466:0;refresh
-: 1607000770:0;sudo apt install alacritty
-: 1607001196:0;refresh
-: 1607001903:0;htop
-: 1607002245:0;refresh
 : 1607002334:0;sudo apt install  tmux
-: 1607002356:0;tmux
 : 1607002746:0;c-b
-: 1607003142:0;tmux
 : 1607003242:0;C-a C-a
 : 1607003244:0;C-a
 : 1607003319:0;sudo apt  purge tmux
-: 1607003332:0;refresh
-: 1607004238:0;sudo apt  purge alacritty
-: 1607004253:0;refresh
-: 1607004268:0;libreoffice
-: 1607007175:0;refresh
-: 1607008891:0;sudo nautilus
-: 1607009078:0;sudo apt update
-: 1607009464:0;bash
 : 1607009474:0;grep
-: 1607009529:0;sudo stacer
-: 1607009546:0;stacer
 : 1607009647:0;rm -r expunged
-: 1607009663:0;sudo rm -r expunged
-: 1607010623:0;./app
 : 1607010634:0;./app install-deps
-: 1607010638:0;./app install
 : 1607010749:0;env GTK_THEME=elementary com.github.calo001.fondo
-: 1607058699:0;refresh
-: 1607060191:0;sudo nautilus
-: 1607081712:0;refresh
-: 1607081824:0;./install.sh
 : 1607081894:0;sudo ./install.sh
-: 1607081906:0;sudo ./install.sh --gdm
-: 1607082314:0;sudo nautilus
 : 1607082471:0;sudo ./install.sh --gdm
-: 1607082501:0;sudo stacer
-: 1607082517:0;stacer
 : 1607082709:0;./app
-: 1607082717:0;./app uninstall
 : 1607082730:0;./app run
 : 1607083715:0;sudo apt install animatch
 : 1607084578:0;cmake .. -GNinja
 : 1607084672:0;sudo apt install flatpak-builder
 : 1607084707:0;flatpak-builder build-flatpak flatpak/com.holypangolin.Animatch.json --force-clean --install --user
 : 1607084735:0;flatpak install org.freedesktop.Sdk
-: 1607085414:0;refresh
 : 1607085658:0;./install.sh blue
-: 1607093448:0;refresh
 : 1607142535:0;wget https://raw.githubusercontent.com/PietJankbal/Chocolatey-for-wine/main/powershell64.exe && cp -rf ./powershell64.exe ~/.wine/drive_c/windows/system32/WindowsPowerShell/v1.0/powershell.exe
 : 1607142557:0;wget https://raw.githubusercontent.com/PietJankbal/Chocolatey-for-wine/main/powershell32.exe && cp -rf ./powershell32.exe ~/.wine/drive_c/windows/syswow64/WindowsPowerShell/v1.0/powershell.exe
-: 1607142568:0;wine powershell
-: 1607151923:0;refresh
 : 1607153229:0;sudo apt install exa
-: 1607153313:0;ls -alF
 : 1607153322:0;exa -alF
-: 1607153346:0;ls -CF
-: 1607153366:0;exa -CF
 : 1607153370:0;exa -F
 : 1607153374:0;exa -CF
 : 1607153377:0;ls -CF
-: 1607153402:0;ls -a
 : 1607153405:0;ls -A
 : 1607153412:0;exa -A
 : 1607153415:0;exa -a
 : 1607153460:0;exa
-: 1607153464:0;ll
-: 1607153702:0;la
-: 1607153704:0;l
 : 1607153720:0;exa --help
-: 1607153746:0;ld
-: 1607154006:0;cd "themes"
-: 1607154024:0;refresh
-: 1607154046:0;neofetch
-: 1607154050:0;ll
-: 1607154188:0;repoman
-: 1607154821:0;refresh
-: 1607154847:0;neofetch
 : 1607157014:0;inkscape
-: 1607158803:0;refresh
 : 1607161194:0;sudo dpkg -i libgranite-common_5.5.0+r1874+pkg116_daily_ubuntu6.0.1_all.deb libgranite5_5.5.0+r1874+pkg116_daily_ubuntu6.0.1_amd64.deb
-: 1607161303:0;refresh
 : 1607161342:0;sudo apt install pop-shop
 : 1607161444:0;sudo apt install com.github.donadigo.eddy
 : 1607162245:0;sudo bash -c 'echo "deb http://packages.elementary.io/appcenter $(lsb_release -sc) main" >> /etc/apt/sources.list.d/appcenter.list'
-: 1607162264:0;sudo wget -O /etc/apt/trusted.gpg.d/appcenter.asc http://packages.elementary.io/key.asc
-: 1607162275:0;sudo apt update
-: 1607162283:0;repoman
-: 1607162306:0;sudo apt update
-: 1607162312:0;repoman
-: 1607162350:0;sudo apt update
-: 1607162380:0;repoman
-: 1607162408:0;sudo apt update
 : 1607162629:0;sudo nano /etc/apt/sources.list.d/appCenter.list
-: 1607162668:0;sudo apt update
-: 1607162782:0;repoman
-: 1607163743:0;sudo nautilus
-: 1607163786:0;sudo update-alternatives --config gdm3-theme.gresource
-: 1607163808:0;sudo update-initramfs -u
-: 1607164078:0;sudo update-alternatives --config gdm3-theme.gresource
-: 1607164087:0;sudo update-initramfs -u
-: 1607164106:0;sudo stacer
-: 1607164419:0;sudo nautilus
 : 1607164483:0;env GTK=elementary com.github.donadigo.appeditor
 : 1607164549:0;env GTK_THEME=elementary com.github.donadigo.appeditor
 : 1607164969:0;sudo apt purge com.github.donadigo.appeditor
-: 1607165441:0;sudo nautilus
-: 1607228304:0;refresh
-: 1607228528:0;winecfg
-: 1607228737:0;refresh
-: 1607228774:0;cd "themes"
-: 1607228807:0;neofetch
 : 1607228930:0;WINEPREFIX=~/Games/.Games-Prefix wine
-: 1607228934:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607231731:0;refresh
-: 1607232629:0;winecfg
-: 1607232753:0;bash
-: 1607233641:0;scrcpy
-: 1607234068:0;refresh
 : 1607236674:0;youtube-dl https://www.youtube.com/watch\?v\=zcWUpEbpdng
 : 1607236720:0;https://www.youtube.com/watch\?v\=zcWUpEbpdng\&t\=7s
 : 1607236730:0;youtube-dl https://www.youtube.com/watch\?v\=zcWUpEbpdng\&t\=7s
-: 1607239420:0;sudo nautilus
 : 1607246952:0;sudo apt install '/home/tomoghno/Downloads/Lightworks-2021.1-Beta-126163.deb'
 : 1607246983:0;sudo apt install lightworks
 : 1607247119:0;lightworks
-: 1607247159:0;refresh
 : 1607248795:0;sudo apt install kdenlive -y && sudo apt purge kdeconnect
-: 1607248917:0;refresh
 : 1607249072:0;sudo nano /etc/env
-: 1607249142:0;sudo nano /etc/environment
-: 1607249175:0;ulimit -Hn\
-
 : 1607249214:0;sudo apt purge snapd\
 sudo apt-mark hold snapd\
 
-: 1607249251:0;sudo apt-mark hold snapd
 : 1607250616:0;sudo apt install breeze
-: 1607250660:0;sudo apt autoremove
-: 1607253316:0;sudo nautilus
 : 1607254228:0;sudo apt purge lutris
-: 1607254306:0;refresh
 : 1607254973:0;sudo apt upgrade --allow-downgrades
-: 1607256381:0;refresh
-: 1607257512:0;./setup_dxvk.sh
-: 1607257525:0;./setup_dxvk.sh --with-d3d10
-: 1607257536:0;./setup_dxvk.sh install  --with-d3d10
 : 1607258443:0;sudo apt install libvulkan1 libvulkan-dev vulkan-utils
-: 1607261012:0;repoman
-: 1607261058:0;sudo apt update
-: 1607261071:0;repoman
-: 1607261087:0;sudo apt update
-: 1607263015:0;legendary
 : 1607263102:0;legendary sync-saves Hornbill
-: 1607263495:0;legendary list-saves
-: 1607263564:0;sudo nautilus
-: 1607268001:0;winecfg
-: 1607268353:0;refresh
 : 1607269053:0;ln -s ~/Music ~/Games/Vice-City/mp3
-: 1607312645:0;refresh
-: 1607312671:0;neofetch
-: 1607313038:0;refresh
 : 1607313237:0;export WINEPREFIX=/home/tomoghno/Games/.Games-Prefix 
 : 1607313240:0;./setup_dxvk.sh install
-: 1607313398:0;winecfg
-: 1607313411:0;export WINEPREFIX=/home/tomoghno/.wine
-: 1607313413:0;winecfg
 : 1607313583:0;ls -l /proc/5197/fd | grep wine
 : 1607313603:0;ps -ef
 : 1607313819:0;meson --cross-file build-win64.txt --buildtype release --prefix /home/tomoghno/Downloads/d8vk-master/src/dxvk build.w64
 : 1607319323:0;nano .zprofile
 : 1607319561:0;.zprofile
 : 1607319571:0;edit .zprofile
-: 1607323264:0;legendary
-: 1607323285:0;cd Downloads
-: 1607323289:0;legendary
-: 1607323310:0;cd Downloads
-: 1607323891:0;legendary update
-: 1607323912:0;legendary update Hornbill
 : 1607323928:0;legendary -h
 : 1607323952:0;legendary cleanup
-: 1607323973:0;legendary sync-saves
-: 1607324242:0;sudo nautilus
 : 1607324776:0;legendary 
-: 1607324798:0;legendary launch Hornbill --offline
-: 1607338864:0;refresh
-: 1607339068:0;sudo nautilus
 : 1607339374:0;nano /etc/zprofile
 : 1607339387:0;sudo nano /etc/zprofile
-: 1607339401:0;sudo nautilus
-: 1607339603:0;refresh
-: 1607343143:0;sudo nautilus
-: 1607345542:0;ll
-: 1607345544:0;la
-: 1607345548:0;ls -l
-: 1607345637:0;la
-: 1607345642:0;ls -a
-: 1607345646:0;ll
 : 1607345648:0;ls -
-: 1607345651:0;ls -l
-: 1607345702:0;epic
-: 1607345719:0;legendary
 : 1607345721:0;epic
-: 1607345735:0;legendary
-: 1607345783:0;fetch
-: 1607345789:0;neofetch
 : 1607345863:0;fetch
 : 1607345906:0;epic list-games
-: 1607347401:0;winecfg
 : 1607350218:0;wine gxteditor.exe
 : 1607350637:0;wine Vice\ City\ GXT\ Editor.exe
-: 1607353374:0;winecfg
 : 1607353759:0;youtube-dl https://www.youtube.com/watch?v=SA6h6z9JAc8&feature=youtu.be
 : 1607353768:0;youtube-dl https://www.youtube.com/watch?v=SA6h6z9JAc8&feature=
 : 1607353786:0;youtube-dl https://www.youtube.com/watch\?v\=SA6h6z9JAc8\&feature\=youtu.be
 : 1607353870:0;youtube-dl https://www.youtube.com/watch\?v\=SA6h6z9JAc8
 : 1607353929:0;youtube-dl https://www.youtube.com/watch\?v\=SA6h6z9JAc8\&t
-: 1607359712:0;refresh
-: 1607363947:0;repoman
-: 1607364021:0;refresh
 : 1607384415:0;sudo apt purge breeze-gtk-theme
-: 1607398124:0;refresh
-: 1607398277:0;sudo nautilus
 : 1607398784:0;sudo apt install kvantum
 : 1607398793:0;sudo apt install kvantummanager
 : 1607398797:0;sudo apt install kvantum-manager
-: 1607399126:0;sudo nautilus
-: 1607399475:0;./install.sh
-: 1607400386:0;sudo apt install alacritty
-: 1607400409:0;repoman
-: 1607400414:0;refresh
-: 1607400559:0;htop
-: 1607401068:0;ll
-: 1607401196:0;htop
-: 1607401205:0;repoman
-: 1607401581:0;refresh
-: 1607401647:0;neofetch
-: 1607402224:0;refresh
-: 1607402239:0;neofetch
-: 1607402304:0;neofetch
 : 1607402746:0;sudo apt purge gnome-terminal
 : 1607402775:0;sudo apt remove gnome-terminal
-: 1607402794:0;neofetch
-: 1607402830:0;sudo apt purge alacritty
-: 1607402842:0;refresh
-: 1607404795:0;sudo nautilus
-: 1607405128:0;ln -s ~/Games/Applications ~/Desktop/Applications
 : 1607405310:0;ln ~/Games/Applications/Krita ~/Desktop/Applications/Krita
 : 1607405341:0;ln -s ~/Games/Applications/Krita ~/Desktop/Applications/Krita
 : 1607405356:0;ln -s ~/Games/Applications ~/Desktop/Applications
@@ -1467,212 +788,90 @@ sudo apt-mark hold snapd\
 : 1607405486:0;ln ~/Games/Applications/Godot ~/Desktop/Godot
 : 1607405666:0;ln -s ~/Games/Applications/Krita ~/Desktop/Krita
 : 1607405675:0;ln -s ~/Games/Applications/Godot ~/Desktop/Godot
-: 1607407323:0;refresh
-: 1607407340:0;winecfg
-: 1607407482:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607407492:0;winecfg
-: 1607407500:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607407534:0;winecfg
-: 1607407538:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607407544:0;winecfg
-: 1607407736:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607407768:0;winecfg
-: 1607407772:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
-: 1607409476:0;legendary list-games
 : 1607409499:0;legendary install 39a0313492c84cf79b119efb09df90e5
 : 1607410932:0;legendary update 39a0313492c84cf79b119efb09df90e5
 : 1607410948:0;legendary sync-saves
-: 1607411162:0;ll
-: 1607411166:0;la
 : 1607411175:0;ls -s
 : 1607411179:0;ls -a
 : 1607411184:0;ls -h
-: 1607411188:0;ls -l
 : 1607411215:0;legendary uninstall 39a0313492c84cf79b119efb09df90e5
 : 1607414147:0;WINEPREFIX=~/Games/.Games-Prefix winecfg
 : 1607416977:0;gamemoderun java -jar ~/Games/minecraft/TLauncher-2.72.jar
-: 1607417122:0;sudo nautilus
-: 1607417292:0;which java
 : 1607417868:0;gamemoderun java -jar ~/Games/Applications/Minecraft.jar
-: 1607417938:0;minecraft
-: 1607418903:0;nano .zshrc
 : 1607425521:0;sudo apt install binfmt-support
-: 1607425549:0;./Minecraft.jar
 : 1607425554:0;./Minecraft
 : 1607425746:0;sudo apt purge binfmt-support
 : 1607425814:0;ln -s ~/Games/Applications/Minecraft.jar ~/Desktop/Minecraft
 : 1607425825:0;ln -s ~/Games/Applications/Minecraft.jar ~/Desktop/Minecraft.jar
-: 1607426960:0;minecraft
 : 1607427058:0;java -jar OptiFine\ 1.16.4.jar
-: 1607431041:0;refresh
 : 1607483961:0;refresj\h
-: 1607483964:0;refresh
-: 1607484002:0;neofetch
-: 1607484020:0;nano .zshrc
-: 1607484052:0;l
-: 1607484061:0;neofetch
-: 1607484083:0;nano .zshrc
-: 1607484115:0;pop-shop
-: 1607486538:0;refresh
-: 1607492488:0;WINEPREFIX=~/Games/.Games-Prefix wine logo32.exe
-: 1607492790:0;la
-: 1607492793:0;ll
-: 1607492803:0;la
 : 1607492815:0;ls -l
-: 1607496868:0;youtube-dl https://www.youtube.com/watch\?v\=R9XpBlq6m1Y
 : 1607496880:0;youtube-dl https://www.youtube.com/watch\?v\\
 
-: 1607496887:0;youtube-dl https://www.youtube.com/watch\?v\=R9XpBlq6m1Y
 : 1607496922:0;https://www.youtube.com/watch\?v\=R9XpBlq6m1Y
 : 1607496930:0;youtube-dl https://www.youtube.com/watch\?v\=R9XpBlq6m1Y
-: 1607500968:0;youtube-dl https://www.youtube.com/watch\?v\=0Qjxc2nvHK8
 : 1607501001:0;youtube-dl https://www.youtube.com/watch\?v\=0Qjxc2nvHK8\&t\=5s
-: 1607501007:0;youtube-dl https://www.youtube.com/watch\?v\=0Qjxc2nvHK8\&t
 : 1607501012:0;youtube-dl https://www.youtube.com/watch\?v\=0Qjxc2nvHK8
 : 1607501041:0;youtube-dl https://www.youtube.com/watch\?v\=0Qjxc2nvHK8\&t
-: 1607508250:0;refresh
-: 1607508673:0;sudo nautilus
-: 1607508724:0;legendary
-: 1607508745:0;sudo nautilus
-: 1607508781:0;legendary
-: 1607511617:0;legendary update Hornbill
-: 1607518243:0;youtube-dl https://www.youtube.com/watch\?v\=UoLlxs2aDHU
 : 1607518278:0;youtube-dl https://www.youtube.com/watch\?v\=UoLlxs2aDHU\&t\=4s
 : 1607518289:0;youtube-dl https://www.youtube.com/watch\?v\=UoLlxs2aDHU
 : 1607518326:0;youtube-dl https://youtu.be/UoLlxs2aDHU
 : 1607518351:0;youtube-dl https://www.youtube.com/watch\?v\=UoLlxs2aDHU\&feature\=youtu.be
 : 1607518392:0;youtube-dl https://www.youtube.com/watch\?v\=4Wrc4fHSCpw
-: 1607527822:0;WINEPREFIX=~/Games/.Games-Prefix wine gta-vc.exe
 : 1607529495:0;WINEPREFIX=~/Games/.Games-Prefix wine FrameLimitAdjuster_VC.exe
 : 1607531807:0;ln -s ~/Music/ ~/Games/Vice-City/mp3/
 : 1607531810:0;ln -s ~/Music/ ~/Games/Vice-City/mp3
-: 1607567769:0;refresh
 : 1607570297:0;flatpak install flathub org.freedesktop.Sdk.Extension.rust-stable//20.08
-: 1607570677:0;refresh
-: 1607572293:0;flatpak
-: 1607572299:0;flatpak --help
-: 1607572317:0;flatpak --version
-: 1607572428:0;flatpak --help
 : 1607575296:0;WINEPREFIX=~/Games/.Games-Prefix wine sg_editor.exe
-: 1607575808:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
-: 1607578222:0;flatpak --help
-: 1607578224:0;flatpak --version
 : 1607578358:0;mangohud
-: 1607578402:0;wine d3d11-triangle
 : 1607578691:0;mangohud WINEPREFIX=~/Games/.Games-Prefix wine gta-vc.exe
-: 1607578711:0;WINEPREFIX=~/Games/.Games-Prefix wine gta-vc.exe
 : 1607578750:0;WINEPREFIX=~/Games/.Games-Prefix mangohud wine gta-vc.exe
-: 1607578905:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
 : 1607579164:0;sudo apt purge mangohud
-: 1607579463:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
-: 1607580394:0;WINEPREFIX=~/Games/.Games-Prefix wine logo32.exe
-: 1607582655:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
-: 1607583546:0;refresh
-: 1607583575:0;neofetch
-: 1607583782:0;refresh
-: 1607584398:0;neofetch
 : 1607584670:0;youtube-dl https://www.youtube.com/watch\?v\=KvGTWmkGx7Q
 : 1607584682:0;youtube-dl www.youtube.com/watch\?v\=KvGTWmkGx7Q
-: 1607584692:0;youtube-dl http://www.youtube.com/watch\?v\=KvGTWmkGx7Q
 : 1607584757:0;youtube-dl http://www.youtube.com/watch\?v=KvGTWmkGx7Q
-: 1607584778:0;youtube-dl https://www.youtube.com/watch\?v\=7E-cwdnsiow
-: 1607584785:0;youtube-dl https://www.youtube.com/watch\?v=7E-cwdnsiow
-: 1607584827:0;youtube-dl https://www.youtube.com/watch?v=7E-cwdnsiow
 : 1607584851:0;youtube-dl http://www.youtube.com/watch\?v\=KvGTWmkGx7Q
-: 1607584899:0;youtube-dl https://www.youtube.com/watch\?v\=7E-cwdnsiow
-: 1607584915:0;youtube-dl
 : 1607584923:0;youtube-dl --help
 : 1607584961:0;youtube-dl https://www.youtube.com/watch\?v\=7E-cwdnsiow
 : 1607584970:0;youtube-dl https://www.youtube.com/watch\?v=7E-cwdnsiow
 : 1607584976:0;youtube-dl https://www.youtube.com/watch?v=7E-cwdnsiow
 : 1607584981:0;youtube-dl https://www.youtube.com/watchv=7E-cwdnsiow
-: 1607585055:0;sudo apt purge youtube-dl
-: 1607585080:0;sudo apt autoremove
 : 1607590557:0;WINEPREFIX=~/Games/.Games-Prefix wine GTA_VC\ HD.exe
-: 1607596266:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
-: 1607597009:0;refresh
 : 1607604176:0;wine d3d11-triangle
-: 1607604760:0;sudo apt install youtube-dl
 : 1607604793:0;youtube-dl https://www.youtube.com/watch\?v\=v0hhwAMLnzU
 : 1607604801:0;youtube-dl https://www.youtube.com/watch\?v=v0hhwAMLnzU
-: 1607615853:0;scrcpy
 : 1607615873:0;adb reverse --remove
-: 1607615877:0;scrcpy
-: 1607615889:0;adb
-: 1607615894:0;adb devices
-: 1607615897:0;scrcpy
-: 1607615948:0;adb devices
-: 1607615952:0;scrcpy
-: 1607615963:0;adb devices
-: 1607615972:0;scrcpy
-: 1607616026:0;sudo nautilus
-: 1607616270:0;scrcpy
 : 1607619795:0;sudo apt install zoom
 : 1607620146:0;sudo apt install steam
-: 1607621276:0;sudo nautilus
-: 1607659458:0;refresh
 : 1607660762:0;sudo apt install snapd
 : 1607661119:0;snap install canta-themes
 : 1607661355:0;snap install zoom-client
-: 1607661798:0;sudo nautilus
-: 1607662363:0;df -H
-: 1607662391:0;sudo df -H
 : 1607662444:0;df -H
 : 1607662454:0;sudo df -H
-: 1607662475:0;snap list
 : 1607662523:0;snap uninstall zoom-client core18 snapd canta-themes
 : 1607662533:0;snap remove zoom-client core18 snapd canta-themes
 : 1607662555:0;snap remove zoom-client canta-themes
 : 1607662576:0;snap remove core18 snapd
 : 1607662594:0;sudo apt purge snapd
-: 1607662616:0;sudo apt autoremove
-: 1607662638:0;snap list
-: 1607662884:0;sudo nautilus
-: 1607663584:0;legendary list-games
 : 1607664234:0;youtube-dl https://www.youtube.com/watch\?v\=fSOR7mPwb4I
-: 1607664528:0;sudo rm -r expunged files info
-: 1607674250:0;scrcpy
-: 1607676083:0;WINEPREFIX=~/Games/.Games-Prefix wine mspaint.exe
-: 1607676106:0;WINEPREFIX=~/Games/.Games-Prefix winetricks
-: 1607676154:0;WINEPREFIX=~/Games/.Games-Prefix wine mspaint.exe
-: 1607676167:0;wine mspaint.exe
-: 1607676252:0;WINEPREFIX=~/Games/.Games-Prefix wine mspaint.exe
 : 1607676263:0;WINEPREFIX=~/Games/.Games-Prefix winetricks
-: 1607676393:0;WINEPREFIX=~/Games/.Games-Prefix wine mspaint.exe
 : 1607676931:0;wine mspaint.exe
 : 1607676935:0;WINEPREFIX=~/Games/.Games-Prefix wine mspaint.exe
 : 1607677900:0;WINEPREFIX=~/Games/.Games-Prefix wine Jarte.exe
 : 1607680209:0;sudo apt install abiword
 : 1607680456:0;sudo apt purge abiword
-: 1607680469:0;refresh
 : 1607681062:0;WINEPREFIX=~/Games/.Games-Prefix wine logo32.exe
-: 1607682410:0;sudo rm -r expunged files info
-: 1607684316:0;WINEPREFIX=~/Games/.Games-Prefix wine Vice\ City\ GXT\ Editor.exe
 : 1607684573:0;WINEPREFIX=~/Games/.Games-Prefix wine Vice\ City\ GXT\ Editor.exe\
 : 1607684575:0;WINEPREFIX=~/Games/.Games-Prefix wine Vice\ City\ GXT\ Editor.exe
 : 1607685830:0;WINEPREFIX=~/Games/.Games-Prefix wine Vice\ City\ GXT\ Editor.exe
-: 1607685846:0;clear
-: 1607685860:0;neofetch
-: 1607685870:0;ll
-: 1607685872:0;la
-: 1607685884:0;nano .zshrc
 : 1607688383:0;git@gitlab.gnome.org:GNOME/gnome-todo.git
 : 1607688415:0;ssh git@gitlab.gnome.org:GNOME/gnome-todo.git
 : 1607688428:0;https://gitlab.gnome.org/GNOME/gnome-todo.git
 : 1607688439:0;git clone https://gitlab.gnome.org/GNOME/gnome-todo.git
 : 1607688610:0;sudo apt install gnome-todo
 : 1607688676:0;sudo apt purge gnome-todo
-: 1607688684:0;refresh
-: 1607688776:0;meson build
-: 1607688811:0;ninja
-: 1607688818:0;meson
-: 1607688824:0;meson install
-: 1607688832:0;meson
 : 1607688835:0;meson install
-: 1607688841:0;ninja
 : 1607691987:0;WINEPREFIX=~/Games/.Games-Prefix wine gta-vc.exe
-: 1607699887:0;refresh
-: 1607699917:0;neofetch
 : 1607703378:0;WINEPREFIX=~/Games/.Games-Prefix wine save_editor.exe
 : 1607705133:0;sudo apt-get install binfmt-support
 : 1607705181:0;chmod a+rx Minecraft.jar
@@ -1681,30 +880,17 @@ sudo apt-mark hold snapd\
 : 1607705303:0;java -jar /home/tomoghno/Games/Applications/Minecraft.jar
 : 1607705338:0;gedit ~/.local/share/applications/minecraft.desktop
 : 1607705444:0;sudo apt purge zoom
-: 1607705464:0;sudo apt autoremove
-: 1607746389:0;refresh
-: 1607746483:0;which java
-: 1607748436:0;cd /tmp/\
-wget https://files.dev47apps.net/linux/droidcam_latest.zip\
-unzip droidcam_latest.zip -d droidcam\
-cd droidcam && sudo ./install-client
 : 1607748548:0;sudo apt purge iruinwebcam
 : 1607748551:0;sudo apt purge iruin
 : 1607748561:0;sudo apt search iruin
 : 1607748580:0;sudo apt search iruin | grep 'iruin'
 : 1607748646:0;sudo apt purge iruin-webcam
-: 1607748848:0;droidcam
 : 1607748952:0;sudo apt install linux-headers-`uname -r` gcc make
-: 1607748967:0;sudo apt autoremove
 : 1607748988:0;sudo cd /tmp
 : 1607748996:0;sudo cd tmp
-: 1607749005:0;cd /tmp
-: 1607749026:0;ll
-: 1607749032:0;ll
 : 1607749054:0;sudo ./install-video\
 \
 
-: 1607749073:0;sudo nautilus
 : 1607749136:0;cd /tmp/\
 wget https://files.dev47apps.net/linux/droidcam_latest.zip\
 unzip droidcam_latest.zip -d droidcam\
@@ -1714,39 +900,21 @@ wget https://files.dev47apps.net/linux/droidcam_latest.zip\
 unzip droidcam_latest.zip -d droidcam\
 cd droidcam && sudo ./install-video
 : 1607749218:0;sudo ./install-sound
-: 1607749243:0;droidcam
 : 1607750062:0;sudo /opt/droidcam-uninstall
 : 1607750069:0;droidcam
-: 1607752858:0;refresh
-: 1607769767:0;sudo nautilus
-: 1607772060:0;./setup_vkd3d_proton.sh
-: 1607772069:0;./setup_vkd3d_proton.sh install
 : 1607772252:0;./setup_vkd3d_proton.sh WINEPREFIX=/home/tomoghno/Games/.Games-Prefix
 : 1607772282:0;WINEPREFIX=/home/tomoghno/Games/.Games-Prefix ./setup_vkd3d_proton.sh install
-: 1607774482:0;refresh
-: 1607781290:0;repoman
-: 1607783436:0;refresh
-: 1607784829:0;sudo nautilus
 : 1607788350:0;wget https://download182.uploadhaven.com/1/application/zip/157qrxn9qPCA2ipniSRw3Th1BNw6UnHhwnTWl8Ej.zip\?key\=F9YDiyfkabUCIJaqJvQxnw\&expire\=1607874729\&filename\=Alba.A.Wildlife.Adventure.zip
-: 1607790340:0;scrcpy
 : 1607790698:0;sudo apt install ardour
-: 1607791199:0;sudo nautilus
-: 1607833011:0;refresh
-: 1607833235:0;neofetch
-: 1607834037:0;refresh
 : 1607845747:0;cd /home/tomoghno/Documents/Applications
-: 1607845752:0;ll
 : 1607845795:0;cd /home/tomoghno/Documents/Applications ./Google\ Assistant
 : 1607845822:0;cd ./home/tomoghno/Documents/Applications/Google\ Assistant
 : 1607845835:0;cd ./home/tomoghno/Documents/Applications/./Google\ Assistant
 : 1607845840:0;cd ./home/tomoghno/Documents/Applications/ ./Google\ Assistant
 : 1607846496:0;sudo apt purge appimage launcher
-: 1607846503:0;sudo apt purge appimagelauncher
 : 1607846663:0;sudo dpkg --configure -a
 : 1607846669:0;sudo apt purge appimagelauncher
 : 1607846710:0;"/home/tomoghno/Documents/Applications/Google Assistant"
-: 1607848756:0;refresh
-: 1607848773:0;neofetch
 : 1607853657:0;sudo nautilus
 : 1607854476:0;refresh
 : 1607856575:0;./Text.py3
@@ -10116,3 +9284,811 @@ sudo dnf install gnome-themes-extra
 : 1624014681:0;dnf search byte
 : 1624014712:0;dnf search elementary
 : 1624015499:0;pkg install android-tools
+: 1627743108:0;wget https://raw.githubusercontent.com/isdampe/gedit-gtk-one-dark-style-scheme/master/onedark.xml
+: 1627743156:0;bash -c "$(curl -fsSL https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh)"\
+
+: 1627789874:0;sudo apt install ubuntu-restricted-extras
+: 1627790004:0;sudo add-apt-repository ppa:ubuntuhandbook1/gimp
+: 1627790067:0;sudo apt install gimp gmic muon
+: 1627790260:0;ll
+: 1627790270:0;sudo rm -rf .uuid
+: 1627790300:0;mkdir fonts
+: 1627790344:0;clear
+: 1627790394:0;sudo apt install inkscape obs-studio
+: 1627790404:0;sudo apt install inkscape
+: 1627790610:0;sudo apt install neovim
+: 1627790641:0;nvim
+: 1627790702:0;sudoedit /etc/environment
+: 1627790892:0;sudo apt install gamemode
+: 1627790932:0;sudo apt-mark hold snapd
+: 1627790947:0;apt list --install | grep snap
+: 1627790953:0;apt list --installed | grep snap
+: 1627827112:0;sudo nautilus
+: 1627835376:0;wget -nc https://dl.winehq.org/wine-builds/winehq.key
+: 1627835386:0;sudo apt-key add winehq.key
+: 1627835397:0;rm winehq.key
+: 1627835409:0;sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main' 
+: 1627835435:0;sudo apt update
+: 1627835442:0;sudo apt install --install-recommends winehq-staging
+: 1627835484:0;curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
+: 1627835508:0;echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+: 1627835728:0;sudo apt install spotify-client
+: 1627835739:0;winecfg
+: 1627836300:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games winecfg
+: 1627837005:0;sudo apt install obs-studio && sudo apt autoremove vlc
+: 1627837063:0;sudo apt install gimp-gmic
+: 1627837229:0;sudo apt install kid3
+: 1627837302:0;sudo apt install kdenlive -y && sudo apt autoremove kdeconnect
+: 1627837312:0;sudo apt autoremove
+: 1627837317:0;sudo apt autoclean
+: 1627837449:0;mkdir Github
+: 1627837453:0;cd Github
+: 1627837484:0;git clone https://github.com/Tomoghno/dotfiles.git
+: 1627837544:0;git rm Google\ Assistant/
+: 1627837548:0;git rm Google\ Assistant/ -r
+: 1627837572:0;git commit -m "removed some files"
+: 1627837577:0;git push
+: 1627837629:0;git mkdir .local
+: 1627837636:0;mkdir .local
+: 1627837646:0;cd .local
+: 1627837657:0;mkdir share
+: 1627837719:0;git add .local/share/backgrounds/Car.jpg
+: 1627837736:0;git commit -m "added wallpaper"
+: 1627837739:0;git push
+: 1627837857:0;sudo apt install krita
+: 1627881237:0;sudo apt install gnome-books
+: 1627882960:0;./setup_dxvk.sh install --with-d3d10
+: 1627882980:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games ./setup_dxvk.sh install --with-d3d10
+: 1627883001:0;./setup_vkd3d_proton.sh install
+: 1627883021:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games ./setup_vkd3d_proton.sh install
+: 1627883536:0;sudo apt update
+: 1627883611:0;sudo apt install libreoffice
+: 1627883841:0;sudo apt install default-jre
+: 1627884570:0;winecfg
+: 1627885678:0;java -jar launcher.jar
+: 1627885956:0;java -jar '/home/tomoghno/.local/share/minecraft/launcher/launcher.jar'
+: 1627885980:0;touch minecraft
+: 1627886092:0;legendary auth
+: 1627886167:0;sudo nautilus
+: 1627886336:0;sudo apt install gamemode
+: 1627893033:0;sudo apt install kdenlive && sudo apt autoremove kdeconnect
+: 1627895333:0;sudo add-apt-repository ppa:libreoffice/ppa
+: 1627895395:0;sudo apt update
+: 1627895406:0;sudo apt upgrade
+: 1627908021:0;sudo apt autoremove kdenlive
+: 1627975414:0;winecfg
+: 1627975559:0;refresh
+: 1627975630:0;winecfg
+: 1627975709:0;refresh
+: 1627975755:0;cd /var/lib/apt/lists
+: 1627975774:0;refresh
+: 1627977605:0;ll
+: 1627977607:0;clear
+: 1627977811:0;sudo apt install neofetch
+: 1627977833:0;neofetch
+: 1627977965:0;sudo add-apt-repository ppa:kubuntu-ppa/backports
+: 1627978038:0;refresh
+: 1627978430:0;repoman
+: 1627980926:0;sudo apt install winetricks
+: 1627980946:0;sudo apt autoremove
+: 1627982173:0;sudo apt install bpytop
+: 1627982188:0;clear
+: 1627982194:0;bpytop
+: 1627983467:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1627983838:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627985793:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine FrameLimitAdjuster_VC.exe
+: 1627985838:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627985853:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine FrameLimitAdjuster_VC.exe
+: 1627986844:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627988515:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games winecfg
+: 1627988594:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627989744:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games winecfg
+: 1627989836:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627990313:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1627990794:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627990859:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1627991107:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627991513:0;dxvk_hud=all WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627991996:0;dxvk_hud=all WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992024:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992090:0;touch vice-city
+: 1627992138:0;gamemoderun vice-city
+: 1627992179:0;gamemoderun WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992194:0;vice-city
+: 1627992203:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992217:0;winecfg
+: 1627992224:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992243:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992271:0;WINEPREFIX=/home/tomoghno/.local/share/wineprefixes/games wine gta-vc.exe
+: 1627992287:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA/gta-vc.exe
+: 1627992303:0;vice-city
+: 1627994009:0;java -jar '/home/tomoghno/.local/share/minecraft/launcher/Old-launcher.jar'
+: 1628064289:0;vice-city
+: 1628066074:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine IMGTool.exe
+: 1628066658:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA\ \(Modded\)/gta-vc.exe
+: 1628066869:0;sudo apt update
+: 1628066888:0;sudo apt upgrade
+: 1628074569:0;gamemoderun vice-city
+: 1628075452:0;sudo apt update
+: 1628075473:0;sudo apt upgrade
+: 1628077290:0;sudo apt autoremove moka-icon-theme
+: 1628084708:0;sudo apt install transmission
+: 1628091603:0;gamemoderun vice-city
+: 1628093608:0;kdenlive
+: 1628098604:0;gamemoderun vice-city
+: 1628102099:0;clear
+: 1628148618:0;gamemoderun vice-city
+: 1628149683:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine GTA\ Vice\ ultimate\ Trainer.exe
+: 1628176750:0;sudo apt update
+: 1628176778:0;sudo apt upgrade
+: 1628177671:0;gamemoderun vice-city
+: 1628178590:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628178611:0;gamemoderun vice-city
+: 1628178655:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628178694:0;gamemoderun vice-city
+: 1628178782:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628178810:0;gamemoderun vice-city
+: 1628230553:0;winecfg
+: 1628230564:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628231773:0;gamemoderun vice-city
+: 1628231926:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1628231997:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628232049:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628232471:0;gamemoderun vice-city
+: 1628232647:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1628232865:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628232940:0;gamemoderun vice-city
+: 1628238399:0;clear
+: 1628310498:0;sudo apt update
+: 1628311389:0;git clone https://github.com/Tomoghno/Tomoghno
+: 1628311461:0;git commit -m "updated README.md"
+: 1628311473:0;git add README.md
+: 1628311474:0;git commit -m "updated README.md"
+: 1628311478:0;git push
+: 1628311563:0;legendary auth
+: 1628311571:0;legendary list-games
+: 1628313389:0;gamemoderun vice-city
+: 1628315018:0;legendary list-games
+: 1628317818:0;librewolf
+: 1628341664:0;clear
+: 1628341667:0;sudo apt update
+: 1628341685:0;sudo apt upgrade
+: 1628342043:0;gamemoderun vice-city
+: 1628344288:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine sg_editor.exe
+: 1628344418:0;gamemoderun vice-city
+: 1628344731:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine VCLimitAdjuster.exe
+: 1628344763:0;gamemoderun vice-city
+: 1628345740:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine VCLimitAdjuster.exe
+: 1628345746:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine sg_editor.exe
+: 1628345838:0;gamemoderun vice-city
+: 1628350713:0;git add desktop.png
+: 1628350738:0;git commit -m "Updated Dotfiles"
+: 1628350742:0;git push
+: 1628350841:0;git rm desktop.png
+: 1628350845:0;git add desktop.png
+: 1628350850:0;git add desktop.jpg
+: 1628350852:0;git commit -m "Updated Dotfiles"
+: 1628350857:0;git push
+: 1628350898:0;git add README.md
+: 1628350902:0;git commit -m "Updated Dotfiles"
+: 1628350903:0;git push
+: 1628403636:0;sudo apt update
+: 1628403654:0;sudo apt upgrade
+: 1628404167:0;git add README.md
+: 1628404173:0;git commit -m "updated README.md"
+: 1628404176:0;git push
+: 1628404264:0;git add README.md
+: 1628404265:0;git commit -m "updated README.md"
+: 1628404266:0;git push
+: 1628404454:0;git add README.md
+: 1628404455:0;git commit -m "updated README.md"
+: 1628404456:0;git push
+: 1628404494:0;git add README.md
+: 1628404497:0;git commit -m "updated README.md"
+: 1628404498:0;git push
+: 1628405079:0;git add README.md
+: 1628405081:0;git commit -m "updated README.md"
+: 1628405082:0;git push
+: 1628405612:0;git add README.md
+: 1628405613:0;git commit -m "updated README.md"
+: 1628405614:0;git push
+: 1628406395:0;gamemoderun vice-city
+: 1628486816:0;sudo apt update
+: 1628486902:0;sudo apt upgrade
+: 1628487081:0;kdenlive
+: 1628487153:0;QT_QPA_PLATFORMTHEME="gtk2" kdenlive
+: 1628488052:0;gamemoderun vice-city
+: 1628515053:0;bpytop
+: 1628517924:0;touch my-head-is-spinning-like-screw
+: 1628518849:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine 121836-gta-vc-icenhancer-gtavc.exe
+: 1628518924:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628518982:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519007:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519060:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519106:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine 121836-gta-vc-icenhancer-gtavc.exe
+: 1628519140:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519155:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519192:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519252:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519734:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine 121836-gta-vc-icenhancer-gtavc.exe
+: 1628519780:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519806:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519865:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519894:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628519906:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628519928:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628520129:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628520151:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628520165:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628520177:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628520192:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628520389:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628520405:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1628521018:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine GTA\ Vice\ City\ appsofshah.com.exe
+: 1628521259:0;gamemoderun vice-city
+: 1628534312:0;sudo apt update
+: 1628534322:0;sudo apt upgrade
+: 1628574906:0;sudo apt install piper
+: 1628574982:0;sudo apt autoremove piper
+: 1628575023:0;refresh
+: 1628577569:0;sudo add-apt-repository ppa:inkscape.dev/stable
+: 1628577600:0;sudo apt upgrade
+: 1628577727:0;sudo apt autoremove
+: 1628577733:0;gamemoderun vice-city
+: 1628593031:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine 172083-nebolshoy-pak-hd-mashin-gtavc.exe
+: 1628593059:0;gamemoderun vice-city
+: 1628593492:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628593511:0;gamemoderun vice-city
+: 1628593528:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628593566:0;gamemoderun vice-city
+: 1628593687:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628608532:0;gamemoderun vice-city
+: 1628612664:0;sudo bash -c 'echo "deb http://packages.elementary.io/appcenter focal main" >> /etc/apt/sources.list.d/appcenter.list'
+: 1628612678:0;sudo wget -O /etc/apt/trusted.gpg.d/appcenter.asc http://packages.elementary.io/key.asc
+: 1628612686:0;sudo apt update
+: 1628613044:0;flatpak remote-add --user elementary https://flatpak.elementary.io/elementary.flatpakrepo
+: 1628613088:0;flatpak remote-add --user elementary https://flatpak.elementary.io/repo.flatpakrepo
+: 1628613102:0;flatpak remote-list
+: 1628618600:0;gamemoderun vice-city
+: 1628659939:0;pak install elementary Tasks
+: 1628660402:0;flatpak run io.elementary.tasks
+: 1628660427:0;flatpak list installed
+: 1628660430:0;flatpak list
+: 1628660461:0;pak uninstall io.elementary.Platform io.elementary.tasks
+: 1628670286:0;sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
+: 1628670316:0;sudo apt update
+: 1628670328:0;sudo apt upgrade
+: 1628751751:0;sudo apt update
+: 1628751761:0;sudo apt upgrade
+: 1628751860:0;flatpak list
+: 1628751866:0;flatpak remote-list
+: 1628754191:0;repoman
+: 1628754218:0;sudo apt install thunderbird
+: 1628754489:0;sudo apt autoremove thunderbird
+: 1628754673:0;pak install spotify
+: 1628754709:0;sudo apt autoremove spotify
+: 1628754716:0;sudo apt autoremove spotify-client
+: 1628754740:0;sudo apt install stacer
+: 1628754772:0;repoman
+: 1628754921:0;fc-cache
+: 1628755004:0;fc-cache -f -v
+: 1628755124:0;winecfg
+: 1628755226:0;fc-cache -f -v
+: 1628755247:0;sudo apt autoremove fonts-inter
+: 1628755414:0;flatpak list
+: 1628755425:0;com.spotify.Client
+: 1628755436:0;flatpak run com.spotify.Client
+: 1628755573:0;flatpak search pop
+: 1628755643:0;pak install org.gtk.Gtk3theme.Pop-dark org.gtk.Gtk3theme.Pop-light
+: 1628755660:0;clear
+: 1628755725:0;repoman
+: 1628755946:0;echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+: 1628755986:0;flatpak list
+: 1628756009:0;pak uninstall org.gtk.Gtk3theme.Pop org.gtk.Gtk3theme.Pop-dark org.gtk.Gtk3theme.Pop-light
+: 1628756013:0;flatpak list
+: 1628756028:0;pak uninstall com.spotify.Client
+: 1628756047:0;sudo apt install spotify-client
+: 1628756089:0;pak uninstall org.freedesktop.Platform org.freedesktop.Platform.GL.default org.freedesktop.Platform.openh264
+: 1628756094:0;flatpak list
+: 1628756430:0;GTK_THEME=pop-dark spotify
+: 1628756458:0;GTK_THEME=Pop-dark spotify
+: 1628756476:0;GTK_THEME=Pop-dark transmission-gtk
+: 1628758076:0;touch pack.mcmeta
+: 1628759801:0;sudo apt install google-chrome-dev
+: 1628760095:0;sudo apt autoremove google-chrome-stable
+: 1628760577:0;sudo apt autoremove google-chrome-dev
+: 1628760603:0;sudo apt autoremove google-chrome-unstable
+: 1628760625:0;sudo apt install google-chrome-stable
+: 1628760637:0;repoman
+: 1628779472:0;gamemoderun vice-city
+: 1628781524:0;sudo apt install system76-wallpaper
+: 1628789726:0;kdenlive
+: 1628790494:0;sudo add-apt-repository ppa:jstaf/onedriver
+: 1628790591:0;repoman
+: 1628790625:0;sudo apt update
+: 1628790669:0;sudo apt install onedriver
+: 1628790689:0;gamemoderun vice-city
+: 1628792553:0;sudo apt install onedriver
+: 1628793125:0;sudo apt upgrade
+: 1628793284:0;sudo apt autoremove onedriver
+: 1628793294:0;repoman
+: 1628793314:0;sudo nautilus
+: 1628839527:0;sudo apt update
+: 1628839547:0;sudo apt upgrade
+: 1628853988:0;kdenlive
+: 1628854274:0;sudo nautilus
+: 1628874350:0;flatpak install mesa
+: 1628874398:0;pak install Mesa
+: 1628875739:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Pixlr\ E.exe
+: 1628876004:0;pak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
+: 1628876015:0;flatpak remote-list
+: 1628876147:0;flatpak remote-ls flathub --app
+: 1628926469:0;sudo apt update
+: 1628936515:0;ll
+: 1628936517:0;clear
+: 1628936518:0;ll
+: 1628936520:0;clear
+: 1628936545:0;gnome-terminal -e bash
+: 1628937968:0;sudo add-apt-repository ppa:apandada1/foliate-daily
+: 1628938018:0;sudo apt install com.github.johnfactotum.foliate
+: 1628938069:0;sudo apt autoremove com.github.johnfactotum.foliate
+: 1628938082:0;sudo add-apt-repository ppa:apandada1/foliate
+: 1628938136:0;sudo apt autoremove foliate
+: 1628938144:0;sudo apt install foliate
+: 1628952919:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine RobloxPlayerLauncher.exe
+: 1628953506:0;ll
+: 1628953552:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1628953612:0;gamemoderun vice-city
+: 1629006935:0;sudo apt update
+: 1629006950:0;sudo apt upgrade
+: 1629007273:0;winecfg
+: 1629007293:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629008621:0;sudo add-apt-repository ppa:cozy-team/cozy
+: 1629008655:0;sudo apt update
+: 1629008704:0;sudo apt install cozy
+: 1629008796:0;sudo apt autoremove cozy
+: 1629008811:0;repoman
+: 1629013182:0;adb devices
+: 1629013213:0;adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
+: 1629017301:0;repoman
+: 1629017321:0;sudo apt autoremove foliate
+: 1629017397:0;sudo apt install gnome-books
+: 1629017409:0;sudo apt update
+: 1629017687:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Setup.exe
+: 1629017725:0;wine Setup.exe
+: 1629017829:0;sudo apt update
+: 1629017857:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Setup-1.bin
+: 1629017869:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine shell
+: 1629017908:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine cmd
+: 1629017974:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Setup-1.bin
+: 1629017979:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Setup.exe
+: 1629018019:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winetricks
+: 1629018106:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Setup.exe
+: 1629018345:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta_sa.exe
+: 1629019042:0;san-andreas
+: 1629019580:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629019730:0;gamemoderun san-andreas
+: 1629027052:0;sudo su
+: 1629027595:0;gamemoderun san-andreas
+: 1629038700:0;git clone https://github.com/GustavoPeredo/font-downloader.git
+: 1629038732:0;mkdir build
+: 1629038760:0;sudo apt install meson
+: 1629038805:0;sudo apt install youtube-dl
+: 1629038819:0;sudo apt autoremove
+: 1629038834:0;meson build .
+: 1629038846:0;sudo apt install cmake
+: 1629038895:0;meson build .
+: 1629038980:0;mkdir build
+: 1629038982:0;meson build .
+: 1629039007:0;sudo apt autoremove libhandy-1-dev meson cmake
+: 1629039078:0;git clone https://github.com/Tomoghno/dotfiles
+: 1629039123:0;git clone https://github.com/Tomoghno/Tomoghno
+: 1629045208:0;gamemoderun san-andreas
+: 1629092370:0;sudo apt update
+: 1629092388:0;sudo apt upgrade
+: 1629093336:0;lsblk
+: 1629093338:0;clear
+: 1629101294:0;AppleColorEmoji.ttf
+: 1629101299:0;fc-cache -f -v
+: 1629101519:0;sudo fc-cache -fv
+: 1629101536:0;fc-cache -fv
+: 1629101953:0;touch fonts.conf
+: 1629102013:0;fc-cache -fv
+: 1629102286:0;sudo nautilus
+: 1629102805:0;sudo fc-cache -fv
+: 1629102810:0;fc-cache -fv
+: 1629108445:0;sudo apt update
+: 1629108458:0;sudo apt upgrade
+: 1629110274:0;sudo apt autoremove vieb
+: 1629111852:0;touch ytplay
+: 1629111859:0;vim ytplay
+: 1629111900:0;chmod a+rx ytplay
+: 1629111953:0;ytplay https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629111962:0;./ytplay https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629111973:0;./ytplay -u https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629112050:0;ytplay -u https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629112666:0;ytplay
+: 1629112688:0;ytplay --classic -u https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629112720:0;gamemoderun san-andreas
+: 1629118761:0;wine explorer++
+: 1629119007:0;gamemoderun san-andreas
+: 1629119904:0;sudo apt install mangohud
+: 1629119936:0;sudo apt install libxnvctrl0
+: 1629119949:0;sudo apt autoremove mangohud
+: 1629119973:0;sudo apt autoremove mangohud libxnvctrl0
+: 1629120124:0;mangohud --dlsym san-andreas
+: 1629120171:0;mangohud san-andreas
+: 1629133895:0;pip
+: 1629133897:0;pip3
+: 1629134017:0;pip install spotdl
+: 1629134062:0;pip3 --help
+: 1629134072:0;pip3 list
+: 1629134154:0;spotdl https://open.spotify.com/track/47RyOrXqLydmsPrsVU7nTw\?si\=20e9a7736bbd401a
+: 1629134271:0;sudo apt autoremove python3-pip
+: 1629179694:0;sudo apt update
+: 1629179709:0;sudo apt upgrade
+: 1629181594:0;sudo apt install python3-pip
+: 1629181610:0;pip install spotdl
+: 1629181703:0;pip list
+: 1629181847:0;pip uninstall spotdl -x
+: 1629181863:0;pip uninstall -x spotdl
+: 1629182028:0;pip uninstall spotdl
+: 1629182118:0;pip list
+: 1629183592:0;gamemoderun san-andreas
+: 1629186452:0;kdenlive
+: 1629194829:0;mangohud --dlsym minecraft
+: 1629196477:0;mangohud vice-city
+: 1629196541:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629196570:0;mangohud vice-city
+: 1629196594:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629196639:0;mangohud vice-city
+: 1629196671:0;mangohud --dlsym vice-city
+: 1629196693:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629196709:0;gamemoderun san-andreas
+: 1629198309:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine Nuden\ Mod\ v1.0.sami
+: 1629200286:0;yta https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629200301:0;youtube-dl https://www.youtube.com/watch\?v\=tlEAEJKIatc
+: 1629200351:0;kdenlive
+: 1629217452:0;ll
+: 1629217454:0;clear
+: 1629217457:0;kdenlive
+: 1629218748:0;sudo apt list insalled
+: 1629218754:0;sudo apt list
+: 1629218767:0;sudo apt list --installed
+: 1629218904:0;sudo apt autoremove zorin-icon-themes zorin-desktop-themes
+: 1629219230:0;gamemoderun san-andreas
+: 1629266166:0;sudo apt update
+: 1629266189:0;sudo apt upgrade
+: 1629266838:0;youtube-dl https://www.youtube.com/watch\?v\=oewANcF6hVY
+: 1629267046:0;gamemoderun san-andreas
+: 1629269390:0;gsettings set org.gnome.desktop.sound input-feedback-sounds true
+: 1629282508:0;git add README.md
+: 1629282513:0;git commit -m "updated README.md"
+: 1629282517:0;git push
+: 1629284011:0;git clone https://gitlab.com/Tomoghno/dotfiles
+: 1629284090:0;git rm Google\ Assistant/
+: 1629284097:0;git rm -r Google\ Assistant/
+: 1629284134:0;git add .bashrc .config/ desktop.jpg .local/ .profile README.md .zprofile
+: 1629284148:0;git commit -m "updated repo"
+: 1629284152:0;git push
+: 1629284241:0;git add README.md
+: 1629284246:0;git commit -m "updated README.md"
+: 1629284248:0;git push
+: 1629295686:0;sudo apt upgrade
+: 1629297555:0;gamemoderun san-andreas
+: 1629299534:0;sudo apt install cmatrix
+: 1629299545:0;cmatrix -r
+: 1629299550:0;cmatrix -B
+: 1629299554:0;cmatrix -l
+: 1629299564:0;cmatrix -m
+: 1629299569:0;cmatrix
+: 1629299596:0;sudo apt install htop
+: 1629299607:0;neofetch
+: 1629299674:0;sudo apt install thunar
+: 1629299683:0;sudo apt install nemo
+: 1629299691:0;sudo apt install caja
+: 1629299698:0;sudo apt install dolphin
+: 1629369004:0;sudo apt update
+: 1629389512:0;repoman
+: 1629389527:0;sudo add-apt-repository ppa:libreoffice/ppa
+: 1629389571:0;repoman
+: 1629389605:0;sudo apt upgrade
+: 1629390801:0;googlesoup
+: 1629390804:0;clear
+: 1629390810:0;sudo apt update
+: 1629394364:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine RobloxPlayerLauncher.exe
+: 1629394542:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine uninstaller
+: 1629394675:0;gamemoderun san-andreas
+: 1629394806:0;gamemoderun vice-city
+: 1629394989:0;gamemoderun san-andreas
+: 1629396791:0;gamemoderun vice-city
+: 1629398327:0;wget https://silent.rockstarvision.com/uploads/SilentPatchVC.zip
+: 1629398349:0;wget --no-check-certificate https://silent.rockstarvision.com/uploads/SilentPatchVC.zip
+: 1629398478:0;gamemoderun vice-city
+: 1629398863:0;gamemoderun san-andreas
+: 1629446076:0;sudo apt update
+: 1629446625:0;cd Downloads
+: 1629446640:0;flatpak install io.elementary.tasks.flatpakref
+: 1629446992:0;gamemoderun san-andreas
+: 1629448118:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine lada-revolution-gtasa.exe
+: 1629448337:0;gamemoderun san-andreas
+: 1629448917:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-sa-iv-los-santos-re-textured-ciy-gtasa.exe
+: 1629448970:0;gamemoderun san-andreas
+: 1629524268:0;sudo apt update
+: 1629526031:0;repoman
+: 1629526047:0;clear
+: 1629526297:0;ll
+: 1629526298:0;clear
+: 1629545047:0;sudo apt update
+: 1629552499:0;gamemoderun san-andreas
+: 1629610390:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine 1296139674_Vehicles.exe
+: 1629610583:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine IMG\ Editor.exe
+: 1629611015:0;gamemoderun san-andreas
+: 1629611490:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine IMG\ Editor.exe
+: 1629613581:0;gamemoderun san-andreas
+: 1629619245:0;sudo apt update
+: 1629619891:0;touch blyat.py
+: 1629619937:0;python3 blyat.py
+: 1629623731:0;gamemoderun san-andreas
+: 1629653725:0;sudo apt install figlet
+: 1629653741:0;figlet TS
+: 1629654582:0;vim
+: 1629654667:0;git add .bash_profile .bashrc .config/ .local/share/backgrounds/ .profile .zprofile
+: 1629654678:0;git commit -m "updated Database"
+: 1629654681:0;git push
+: 1629654750:0;git add .zprofile
+: 1629654752:0;git commit -m "updated Database"
+: 1629654754:0;git push
+: 1629654953:0;git add .bash_profile .bashrc .config/ .local/share/backgrounds/ .profile .zprofile
+: 1629654955:0;git commit -m "updated Database"
+: 1629654956:0;git push
+: 1629655017:0;git clone git@gitlab.com:Tomoghno/dotfiles.git
+: 1629655044:0;git clone https://gitlab.com/Tomoghno/dotfiles.git
+: 1629655136:0;git add .bash_profile .bashrc .config/ .local/share/backgrounds/ .profile .zprofile
+: 1629655150:0;git add desktop.png glade.conf README.md
+: 1629655154:0;git commit -m "updated Database"
+: 1629655159:0;git push
+: 1629655690:0;git pull
+: 1629656574:0;bash
+: 1629707131:0;fc-cache -fv
+: 1629707139:0;sudo fc-cache -fv
+: 1629708550:0;fildem
+: 1629708805:0;sudo apt autoremove python3-fildem
+: 1629717100:0;sudo apt update
+: 1629720230:0;gamemoderun san-andreas
+: 1629722398:0;sudo apt install gnome-session
+: 1629722924:0;sudo apt autoremove gnome-session
+: 1629722987:0;sudo apt install kde-standard
+: 1629723033:0;sudo apt install ukui-desktop-environment
+: 1629723072:0;sudo apt install cinnamon-desktop-environment
+: 1629723150:0;sudo apt install awesome
+: 1629723185:0;sudo apt install rofi
+: 1629723430:0;rofi -show drun
+: 1629723462:0;muon
+: 1629723500:0;sudo muon
+: 1629723608:0;lxappearance
+: 1629723810:0;sudo find / -name rc.lua
+: 1629723860:0;cp /etc/xdg/awesome/rc.lua ~/.config/awesome
+: 1629723867:0;cd .config
+: 1629723894:0;cd awesome
+: 1629723908:0;rm awesome
+: 1629723916:0;cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
+: 1629723929:0;mkdir awesome
+: 1629723931:0;cp /etc/xdg/awesome/rc.lua ~/.config/awesome/rc.lua
+: 1629723935:0;cd awesome
+: 1629724183:0;sudo apt install alacritty
+: 1629724223:0;ll
+: 1629724224:0;clear
+: 1629724478:0;sudo apt install compton nitrogen
+: 1629724679:0;vim .config/awesome/rc.lua
+: 1629724801:0;compton
+: 1629725039:0;vim .config/awesome/rc.lua
+: 1629725270:0;gedit .config/awesome/rc.lua
+: 1629725689:0;rofi -show drun
+: 1629725811:0;vim .config/rofi/themes/dmenu.rasi
+: 1629725877:0;vim .config/rofi/config
+: 1629725920:0;vim .config/rofi/themes/dmenu.rasi
+: 1629726019:0;nitrogen --restore
+: 1629727066:0;sudo apt autoremove compton nitrogen
+: 1629727078:0;sudo apt autoremove compton nitrogen lxappearence
+: 1629727100:0;sudo apt autoremove compton nitrogen lxappearance
+: 1629727141:0;sudo apt autoremove compton nitrogen lxappearance awesome rofi
+: 1629727157:0;sudo apt install compton nitrogen lxappearance awesome rofi
+: 1629727196:0;sudo apt autoremove compton nitrogen lxappearance awesome rofi alacritty
+: 1629727210:0;sudo apt install compton nitrogen lxappearance awesome rofi alacritty
+: 1629727334:0;git clone https://gitlab.com/Tomoghno/dotfiles
+: 1629727550:0;git add .config/awesome/rc.lua
+: 1629727557:0;git add README.md
+: 1629727587:0;git commit -m "Added Awesome WM config file"
+: 1629727590:0;git pusj
+: 1629727594:0;git push
+: 1629727607:0;git add .config/awesome/rc.lua
+: 1629727610:0;git add README.md
+: 1629727614:0;git commit -m "Added Awesome WM config file"
+: 1629727616:0;git push
+: 1629727695:0;git add .local
+: 1629727702:0;git commit -m "updated Database"
+: 1629727708:0;git push
+: 1629731257:0;sudo apt autoremove mcpelauncher-thesonicmaster
+: 1629731758:0;minecraft-bedrock
+: 1629734634:0;touch awesome.txt
+: 1629770792:0;bat
+: 1629770799:0;sudo apt install bat
+: 1629770815:0;bat /proc/sys/vm/swappiness
+: 1629770824:0;which bat
+: 1629770834:0;sudo apt autoremove bat
+: 1629771005:0;sudo apt autoremove figlet
+: 1629771030:0;sudo apt update
+: 1629771043:0;sudo apt upgrade
+: 1629772137:0;gedit .config/awesome/rc.lua
+: 1629776613:0;sudo apt install compton nitrogen lxappearance awesome rofi alacritty
+: 1629776914:0;gedit .config/awesome/rc.lua
+: 1629776935:0;sudo apt install compton nitrogen lxappearance awesome rofi alacritty
+: 1629777110:0;firefox
+: 1629777396:0;gnome-boxes
+: 1629777658:0;xprop
+: 1629777703:0;clear
+: 1629778033:0;vim .config/picom/picom.conf
+: 1629778285:0;gedit .config/awesome/rc.lua
+: 1629778431:0;sudo apt install polybar
+: 1629778453:0;polybar
+: 1629778463:0;polybar -c
+: 1629778476:0;polybar -h
+: 1629778508:0;gedit .config/awesome/rc.lua
+: 1629778535:0;polybar -h
+: 1629778586:0;polybar
+: 1629778599:0;polybar -m
+: 1629778668:0;polybar example
+: 1629779097:0;picom
+: 1629779112:0;polybar example
+: 1629779116:0;polybar
+: 1629779123:0;polybar -l
+: 1629779280:0;mkdir .config/polybar
+: 1629779289:0;cd .config/polybar
+: 1629779311:0;touch config
+: 1629779397:0;rm config
+: 1629779400:0;wget https://gitlab.com/dwt1/dotfiles/-/raw/master/.config/polybar/config
+: 1629779413:0;polybar
+: 1629779446:0;polybar --config=~/.config/polybar/config
+: 1629779578:0;mkdir scripts
+: 1629779605:0;touch launch.sh
+: 1629779611:0;vim launch.sh
+: 1629779637:0;chmod a+rx launch.sh
+: 1629779641:0;./launch.sh
+: 1629779864:0;wget https://gitlab.com/dwt1/dotfiles/-/raw/master/.config/polybar/scripts/check-all-updates.sh
+: 1629779887:0;wget https://gitlab.com/dwt1/dotfiles/-/raw/master/.config/polybar/scripts/pavolume.sh
+: 1629780703:0;sudo apt autoremove compton nitrogen lxappearance awesome rofi alacritty polybar
+: 1629781717:0;git add .config/polybar/
+: 1629781728:0;git commit -m "updated Polybar Config"
+: 1629781734:0;git push
+: 1629781752:0;git clone https://gitlab.com/Tomoghno/dotfiles
+: 1629782841:0;git clone https://gitlab.com/Tomoghno/dotfiles.git
+: 1629783622:0;sudo apt install timeshift
+: 1629794279:0;yay
+: 1629794515:0;gedit /etc/fonts/local.conf
+: 1629794548:0;sudi gedit /etc/fonts/local.conf
+: 1629794553:0;sudo gedit /etc/fonts/local.conf
+: 1629794574:0;nano ~/.Xresources
+: 1629794596:0;xrdb -merge ~/.Xresources
+: 1629794604:0;sudo ln -s  /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d/\
+
+: 1629794613:0;sudo ln -s  /usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf /etc/fonts/conf.d/\
+
+: 1629794631:0;mkdir -p ~/.config/fontconfig/
+: 1629794638:0;nano ~/.config/fontconfig/fonts.conf
+: 1629794761:0;gedit ~/.config/fontconfig/fonts.conf
+: 1629794918:0;sudo fc-cache -fv
+: 1629795081:0;yay -S pamac
+: 1629795579:0;sudo fc-cache -fv
+: 1629795589:0;gedit ~/.config/fontconfig/fonts.conf
+: 1629795610:0;sudo fc-cache -fv
+: 1629795747:0;yay -S spotify
+: 1629796181:0;yay -S steam
+: 1629796286:0;bash
+: 1629796308:0;pacman -Rs $(pacman -Qtdq)
+: 1629796314:0;sudo pacman -Rs $(pacman -Qtdq)
+: 1629796570:0;yay -S google-chrome
+: 1629796985:0;sudo pacman -S jre-openjdk
+: 1629797094:0;yay -S akm
+: 1629797197:0;sudoedit /etc/environment
+: 1629797307:0;yay -S nvim
+: 1629797313:0;yay -S neovim
+: 1629797398:0;yay -S qgnomeplatform adwaita-qt
+: 1629797489:0;sudo gedit /etc/environment
+: 1629797662:0;neofetch
+: 1629797678:0;yay -S wine-staging
+: 1629797922:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629797934:0;winecfg
+: 1629798014:0;yay -S gimp gimp-plugin-gmic
+: 1629798734:0;yay -S inkscape
+: 1629798781:0;cat /proc/sys/vm/swappiness
+: 1629799025:0;yay -S lollypop
+: 1629799080:0;sudo nano /etc/sysctl.conf
+: 1629799124:0;sudo sysctl vm.swappiness=1
+: 1629799131:0;cat /proc/sys/vm/swappiness
+: 1629799134:0;bat
+: 1629799140:0;bat /proc/sys/vm/swappiness
+: 1629799362:0;sudoedit /etc/default/grub
+: 1629799447:0;sudo gedit /etc/grub.d/30_os-prober
+: 1629799465:0;sudoedit /etc/default/grub
+: 1629799488:0;sudo gedit /etc/default/grub
+: 1629799580:0;yay -S geary
+: 1629799603:0;sudo update-grub
+: 1629799659:0;yay -S update-grub
+: 1629799687:0;sudo grub-mkconfig
+: 1629799738:0;yay -S update-grub
+: 1629799787:0;sudo update-grub
+: 1629799849:0;yay -S geary
+: 1629800706:0;env TERMINAL
+: 1629800782:0;gamemoderun san-andreas
+: 1629800872:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629800890:0;gamemoderun vice-city
+: 1629800914:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629800932:0;gamemoderun vice-city
+: 1629801173:0;glxgears
+: 1629801338:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta-vc.exe
+: 1629801405:0;gamemoderun san-andreas
+: 1629801463:0;winecfg
+: 1629801472:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629801491:0;gamemoderun san-andreas
+: 1629801525:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629801863:0;yay -S  lib32-mpg123
+: 1629801917:0;yay -S  lib32-mpg123 mpg123
+: 1629802035:0;sudoedit /etc/environment
+: 1629802075:0;ulimit -Hn
+: 1629802118:0;sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+: 1629802178:0;gamemoderun san-andreas
+: 1629802286:0;san-andreas
+: 1629802354:0;MOZ_ENABLE_WAYLAND=1 firefox
+: 1629802595:0;sudo pacman -S winetricks
+: 1629802701:0;sudo pacman -S wine-staging
+: 1629802729:0;sudo pacman -S winetricks
+: 1629802981:0;sudo pacman -S lib32-gtk3
+: 1629802990:0;sudo pacman -Rs $(pacman -Qtdq)
+: 1629803003:0;sudo pacman -S winetricks
+: 1629803119:0;sudo nano /etc/pacman.conf
+: 1629803186:0;san-andreas
+: 1629803353:0;vice-city
+: 1629803439:0;san-andreas
+: 1629803549:0;sudo pacman -S lib32-openal
+: 1629803814:0;sudo pacman -Rns wine-staging
+: 1629803823:0;sudo pacman -Rns wine-staging winetricks
+: 1629803850:0;yay -S exe-thumbnailer
+: 1629804129:0;vulkaninfo
+: 1629804146:0;yay -S vulkan-tools
+: 1629804284:0;vulkaninfo
+: 1629804294:0;yay -S wine
+: 1629804678:0;yay -S lib32-mesa
+: 1629804744:0;yay -S lib32-libglvnd
+: 1629804765:0;yay -S lib32-vulkan-radeon
+: 1629817220:0;flatpak remote-ls
+: 1629817230:0;flatpak remote-list
+: 1629818279:0;yay -S wine
+: 1629818484:0;sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
+: 1629818627:0;sudoedit /etc/pacman.conf
+: 1629818835:0;winecfg
+: 1629818841:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629818862:0;vice-city
+: 1629818893:0;WINEPREFIX=$HOME/.local/share/wineprefixes/games winecfg
+: 1629819027:0;gamemoderun san-andreas
+: 1629819166:0;neofetch
+: 1629819173:0;clear
+: 1629819189:0;yay -Syu
+: 1629820335:0;gamemoderun san-andreas
+: 1629822661:0;yay -S inkscape
+: 1629822998:0;yay -S obs-studio
+: 1629823097:0;yay -S stacer
+: 1629823144:0;yay -S stacer-bin
+: 1629823270:0;yay -S gcolor3
+: 1629823673:0;yay -S epiphany
+: 1629823756:0;cd /var/cache/pacman/pkg/
+: 1629823794:0;sudo pacman -Rs $(pacman -Qtdq)
+: 1629823829:0;sudo pacman -Scc
+: 1629823843:0;sudo pacman -Sc
+: 1629823871:0;yay
+: 1629823912:0;yay -S bat
+: 1629823930:0;sudo pacman -Sc
+: 1629823934:0;yay
+: 1629853126:0;yay -Syu
+: 1629853548:0;git clone https://gitlab.com/Tomoghno/dotfiles.git
+: 1629853590:0;yay -S popsicle-bin

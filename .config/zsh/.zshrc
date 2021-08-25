@@ -1,9 +1,9 @@
 #!/bin/sh
-#  _____ ____  
-# |_   _/ ___| 	Tomoghno Sen
-#   | | \___ \ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
-#   | |  ___) |	https://github.com/Tomoghno
-#   |_| |____/ 	https://gitlab.com/Tomoghno
+#   _____ ____  
+#  |_   _/ ___| 	Tomoghno Sen
+#    | | \___ \ 	https://www.youtube.com/channel/UCrLuSGTUJRmI8w3aPMN8Stw
+#    | |  ___) |	https://github.com/Tomoghno
+#    |_| |____/ 	https://gitlab.com/Tomoghno
 #
 # A customized .zshrc
 
@@ -86,6 +86,7 @@ alias edit='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias pak='flatpak --user'
+alias yay='paru'
 
 ### youtube-dl alias
 alias yt='youtube-dl'
@@ -111,6 +112,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias df='df -h'
+alias cat='bat'
 
 ### terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
