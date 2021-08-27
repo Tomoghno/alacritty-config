@@ -31,4 +31,5 @@ QT_QPA_PLATFORMTHEME="gnome"
 
 # ~/ Clean-up:
 export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
-export GTK2_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-2.0/gtkrc-2.0"export MANPAGER="sh -c 'sed -e s/.\\\\x08//g | bat -l man -p'"
+export GTK2_RC_FILES="${XDG_CONFIG_HOME:-$HOME/.config}/gtk-2.0/gtkrc-2.0"
+export MANPAGER="sh -c 'sed -e s/.\\\\x08//g | bat -l man -p'"
