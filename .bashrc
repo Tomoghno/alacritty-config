@@ -48,7 +48,7 @@ ex ()
 }
 
 ### Aliases
-alias refresh="sudo apt update && sudo apt upgrade && flatpak update"
+alias refresh="yay -Syu && flatpak update"
 alias lock='xdg-screensaver lock'
 alias bconf='nvim $HOME/.bashrc'
 alias edit='nvim'
