@@ -79,7 +79,7 @@ ex ()
 }
 
 ### Aliases
-alias refresh="sudo apt update && sudo apt upgrade && flatpak update"
+alias refresh="paru -Syu && flatpak update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim $HOME/.config/zsh/.zshrc'
 alias edit='nvim'
