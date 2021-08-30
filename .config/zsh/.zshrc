@@ -79,10 +79,9 @@ ex ()
 }
 
 ### Aliases
-alias refresh="paru -Syu && flatpak update"
+alias refresh="paru -Syu && flatpak update && firegnome-update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim $HOME/.config/zsh/.zshrc'
-alias edit='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias pak='flatpak --user'
