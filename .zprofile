@@ -19,7 +19,6 @@ fi
 PATH="/usr/games:$PATH"
 
 # QT5 themeing support in GNOME.
-QT_AUTO_SCREEN_SCALE_FACTOR=1
 QT_QPA_PLATFORMTHEME="gnome"
 
 # ~/ Clean-up:
