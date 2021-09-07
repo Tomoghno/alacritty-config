@@ -48,7 +48,7 @@ ex ()
 }
 
 ### Aliases
-alias refresh="sudo aura -Syu && sudo aura -Au & flatpak update && firegnome-update"
+alias refresh="sudo aura -Syu && sudo aura -Au && flatpak update && firegnome-update"
 alias lock='xdg-screensaver lock'
 alias bconf='nvim $HOME/.bashrc'
 alias edit='nvim'

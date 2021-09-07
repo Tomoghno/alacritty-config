@@ -79,7 +79,7 @@ ex ()
 }
 
 ### Aliases
-alias refresh="sudo aura -Syu && sudo aura -Au & flatpak update && firegnome-update"
+alias refresh="sudo aura -Syu && sudo aura -Au && flatpak update && firegnome-update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim $HOME/.config/zsh/.zshrc'
 alias vim='nvim'
