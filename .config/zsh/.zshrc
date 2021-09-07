@@ -79,13 +79,13 @@ ex ()
 }
 
 ### Aliases
-alias refresh="paru -Syu && flatpak update && firegnome-update"
+alias refresh="sudo aura -Syu && sudo aura -Au & flatpak update && firegnome-update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim $HOME/.config/zsh/.zshrc'
 alias vim='nvim'
 alias vi='nvim'
 alias pak='flatpak --user'
-alias yay='paru'
+alias pkg='sudo aura'
 
 ### youtube-dl alias
 alias yt='youtube-dl'
