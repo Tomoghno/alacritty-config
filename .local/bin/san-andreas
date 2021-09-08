@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/tomoghno/Games/GTA-SA && WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA-SA/gta_sa.exe
