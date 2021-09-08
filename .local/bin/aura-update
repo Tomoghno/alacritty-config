@@ -21,15 +21,15 @@ LCYAN='\033[01;36m'
 WHITE='\033[01;37m'
 NC='\033[0m' # No Color
 
-### Updating Arch Linux Packages
+### Updating Arch Linux Packages.
 sudo aura -Syu
 sudo aura -Au
 
-### Updating Flatpak Apps
+### Updating Flatpak Apps.
 echo -e "aura >>= ${GREEN}Updating flatpak apps...${NC}"
 flatpak update
 
-### Updating firefox GNOME theme
+### Updating firefox GNOME theme (Default Profile).
 echo -e "aura >>= ${GREEN}Updating firefox GNOME theme...${NC}"
-cd $HOME/.mozilla/firefox/csgzx2zh.default-release/chrome/firefox-gnome-theme
+cd $HOME/.mozilla/firefox/*.*/chrome/firefox-gnome-theme
 git pull origin master
