@@ -33,7 +33,3 @@ flatpak update
 echo -e "aura >>= ${GREEN}Updating firefox GNOME theme...${NC}"
 cd $HOME/.mozilla/firefox/*.*/chrome/firefox-gnome-theme
 git pull origin master
-
-### Removing Junk Files
-echo -e "aura >>= ${GREEN}Removing Junk files...${NC}"
-sudo rm -r /tmp/* && sudo rm -r /tmp/.* && sudo rm -r /var/cache/aura/.*
