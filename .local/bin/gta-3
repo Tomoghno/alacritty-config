@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Launch GTA 3
+cd $HOME/Games/GTA-3 && ./re3

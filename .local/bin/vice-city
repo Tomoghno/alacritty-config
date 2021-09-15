@@ -1,2 +1,4 @@
 #!/bin/sh
-cd /home/tomoghno/Games/GTA-VC && WINEPREFIX=$HOME/.local/share/wineprefixes/games wine $HOME/Games/GTA-VC/gta-vc.exe
+
+# Launch Vice City
+cd $HOME/Games/GTA-VC && ./reVC

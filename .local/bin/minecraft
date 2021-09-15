@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar '/home/tomoghno/.local/share/minecraft/launcher/launcher.jar'
+java -jar $HOME/.local/share/minecraft/launcher/launcher.jar
