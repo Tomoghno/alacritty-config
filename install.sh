@@ -39,6 +39,7 @@ cp -TRvf $HOME/.bashrc $BACKUP/.bashrc
 cp -TRvf $HOME/.bash_profile $BACKUP/.bash_profile
 cp -TRvf $HOME/.bash_history $BACKUP/.bash_history
 cp -TRvf $HOME/.profile $BACKUP/.profile
+cp -TRvf $HOME/.zprofile $BACKUP/.zprofile
 cp -TRvf $HOME/.Xresources $BACKUP/.Xresources
 cp -TRvf $HOME/.config/alacritty $BACKUP/.config/alacritty
 cp -TRvf $HOME/.config/awesome $BACKUP/.config/awesome
@@ -59,6 +60,7 @@ cp -TRvf .bashrc $HOME/.bashrc
 cp -TRvf .bash_profile $HOME/.bash_profile
 cp -TRvf .bash_history $HOME/.bash_history
 cp -TRvf .profile $HOME/.profile
+cp -TRvf .zprofile $HOME/.zprofile
 cp -TRvf .Xresources $HOME/.Xresources
 cp -TRvf .config/alacritty $HOME/.config/alacritty
 cp -TRvf .config/awesome $HOME/.config/awesome
