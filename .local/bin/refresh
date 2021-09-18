@@ -36,7 +36,7 @@ fi
 echo -e "aura >>= ${GREEN}Updating flatpak apps...${NC}"
 flatpak update
 
-### Updating firefox GNOME theme (Default Profile).
-echo -e "aura >>= ${GREEN}Updating firefox GNOME theme...${NC}"
-cd $HOME/.mozilla/firefox/*.*/chrome/firefox-gnome-theme
-git pull origin master
+### Updating firefox GNOME theme (uncomment if you are using this theme).
+# echo -e "aura >>= ${GREEN}Updating firefox GNOME theme...${NC}"
+# cd $HOME/.mozilla/firefox/*.*/chrome/firefox-gnome-theme
+# git pull origin master
