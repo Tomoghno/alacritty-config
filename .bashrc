@@ -48,7 +48,6 @@ ex ()
 }
 
 ### Aliases
-alias refresh="aura-update"
 alias lock='xdg-screensaver lock'
 alias bconf='nvim $HOME/.bashrc'
 alias edit='nvim'
@@ -56,6 +55,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias pak='flatpak --user'
 alias pkg='sudo aura'
+# alias refresh="aura-update"
 
 ### youtube-dl alias
 alias yt='youtube-dl'

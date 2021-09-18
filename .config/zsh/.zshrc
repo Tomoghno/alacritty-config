@@ -79,13 +79,13 @@ ex ()
 }
 
 ### Aliases
-alias refresh="aura-update"
 alias lock='xdg-screensaver lock'
 alias zconf='nvim $HOME/.config/zsh/.zshrc'
 alias vim='nvim'
 alias vi='nvim'
 alias pak='flatpak --user'
 alias pkg='sudo aura'
+# alias refresh="aura-update"
 
 ### youtube-dl alias
 alias yt='youtube-dl'
