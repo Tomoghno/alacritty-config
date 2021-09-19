@@ -1,4 +1,12 @@
 #!/bin/sh
 
 # Launch GTA 3
-cd $HOME/Games/GTA-3 && ./re3
+cd $HOME/Games/GTA-3
+
+if echo $XDG_SESSION_TYPE | egrep 'x11' ; then
+  ./re3
+elif echo $XDG_SESSION_TYPE | egrep 'wayland' ; then
+  ./Wre3
+else
+  echo -e "\033[0;31mGame Can't be executed\033[0m"
+fi

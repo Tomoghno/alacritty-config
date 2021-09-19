@@ -1,4 +1,12 @@
 #!/bin/sh
 
-# Launch Vice City
-cd $HOME/Games/GTA-VC && ./reVC
+# Launch GTA 3
+cd $HOME/Games/GTA-VC
+
+if echo $XDG_SESSION_TYPE | egrep 'x11' ; then
+  ./reVC
+elif echo $XDG_SESSION_TYPE | egrep 'wayland' ; then
+  ./WreVC
+else
+  echo -e "\033[0;31mGame Can't be executed\033[0m"
+fi

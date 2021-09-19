@@ -22,14 +22,16 @@ WHITE='\033[01;37m'
 NC='\033[0m' # No Color
 
 ### Updating Arch Linux Packages.
-if pacman -Qs yay > /dev/null ; then
-  echo -e "yay >>> ${GREEN}Updating System...${NC}"
-  yay -Syu
+if pacman -Qs aura > /dev/null ; then
+  sudo aura -Syu && sudo aura -Au
 elif pacman -Qs paru > /dev/null ; then
   echo -e "paru >>> ${GREEN}Updating System...${NC}"
   paru -Syu
+elif pacman -Qs yay > /dev/null ; then
+  echo -e "yay >>> ${GREEN}Updating System...${NC}"
+  yay -Syu
 else
-  sudo aura -Syu && sudo aura -Au
+  sudo pacman -Syu
 fi
 
 ### Updating Flatpak Apps.
