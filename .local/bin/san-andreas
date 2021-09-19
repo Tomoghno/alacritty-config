@@ -1,4 +1,8 @@
 #!/bin/sh
 
-# Launch San Andreas
-cd $HOME/Games/GTA-SA && WINEPREFIX=$HOME/.local/share/wineprefixes/games wine gta_sa.exe
+### ENV
+WINEPREFIX=$HOME/.local/share/wineprefixes/games
+RADV_PERFTEST=aco
+
+### Launch San Andreas
+cd $HOME/Games/GTA-SA && wine gta_sa.exe

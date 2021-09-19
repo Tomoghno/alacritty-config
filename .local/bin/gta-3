@@ -1,6 +1,9 @@
 #!/bin/sh
 
-# Launch GTA 3
+### ENV
+mesa_glthread=true
+
+### Launch GTA 3
 cd $HOME/Games/GTA-3
 
 if echo $XDG_SESSION_TYPE | egrep 'x11' ; then
